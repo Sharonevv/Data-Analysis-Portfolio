@@ -7,4 +7,4 @@
 - How to use the WHERE clause in conjunction with logical keywords such as AND, OR, BETWEEN ... AND ...
 
 **Questions**
-- When should I use SELECT * vs selecting specific columns?
+- When should I use SELECT * vs selecting specific columns? (this only question I had in the beginning, I got the answers as I read through the notes and did the exercises)
