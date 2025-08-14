@@ -28,6 +28,7 @@ SELECT * FROM movies;
 SELECT title FROM movies WHERE id = 6
 
 --Lesson 2, Exercise 2
+--Find the movies released in the years between 2000 and 2010 
 SELECT title FROM movies WHERE year BETWEEN 2000 AND 2010;
 
 --Lesson 2, Excercise 3
