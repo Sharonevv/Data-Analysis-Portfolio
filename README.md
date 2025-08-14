@@ -12,13 +12,13 @@
 
 ## - **Week 1-Day1**: SQL Basics
 **Goal:**  I Learned about and practiced SELECT, WHERE, ORDER BY, GROUP BY, and basic JOINs.
-(see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/tree/main/week1) for details)
+(see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
 
 - **Week 1–Day 2**: I Learned about and practiced Sorting, filtering, and basic joins.  
   (see [Week1 Day2](https://thelinkgoeshere.com) for details)
 
 ### Files
-- All of [week1](https://github.com/Sharonevv/Data-Analysis-Portfolio/tree/main/week1)) sample queries from practice can be found here 
+- All of [week1](https://github.com/Sharonevv/Data-Analysis-Portfolio/tree/main/week1) sample queries from practice can be found here 
 
 
 ### Excel
