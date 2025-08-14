@@ -22,3 +22,8 @@ SELECT title, year FROM movies;
 SELECT * FROM movies;
 
 --Lesson 2, Excercise 1
+
+
+--Lesson 3, Exercise 1
+--Find all the Toy Story movies
+ SELECT title FROM movies WHERE title = 'Toy Story'
