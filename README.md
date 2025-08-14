@@ -18,7 +18,7 @@
   (see [Week1 Day2](https://thelinkgoeshere.com) for details)
 
 ### Files
-- All of [week1]([https://thelinkgoeshere.com](https://github.com/Sharonevv/Data-Analysis-Portfolio/tree/main/week1)) sample queries from practice can be found here 
+- All of [week1](https://github.com/Sharonevv/Data-Analysis-Portfolio/tree/main/week1)) sample queries from practice can be found here 
 
 
 ### Excel
