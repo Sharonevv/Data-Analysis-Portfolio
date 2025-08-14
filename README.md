@@ -11,15 +11,15 @@ I’m Sharone, a Computer Science graduate from NUST, based in Windhoek, Namibia
 - **Week 1–Day 2**: Sorting, filtering, and basic joins.  
   (see `week1/day2.sql`)
 
-## - **Week 1–Day 1**: SQL Basics
-**Goal:** I Learned about and practiced SELECT, WHERE, ORDER BY, GROUP BY, and basic JOINs.
+## - **Week 1–[Day1](https://thelinkgoeshere.com)**: SQL Basics
+**Goal:**  I Learned about and practiced SELECT, WHERE, ORDER BY, GROUP BY, and basic JOINs.
 (see `week1/week1_day1.sql` for details)
-- **Week 1–Day 2**: I Learned about and practiced Sorting, filtering, and basic joins.  
+- **Week 1–[Day2](https://thelinkgoeshere.com)**: I Learned about and practiced Sorting, filtering, and basic joins.  
   (see `week1/day2.sql`)
 
 ### Files
-- `week1/sql_examples.sql` — sample queries from practice
-- `week1/notes.md` — quick notes and questions
+- All of [week 1](https://thelinkgoeshere.com) sample queries from practice can be found here 
+
 
 ### Excel
 *(Coming soon – building dashboards and pivot tables)*
@@ -28,5 +28,5 @@ I’m Sharone, a Computer Science graduate from NUST, based in Windhoek, Namibia
 *(Coming later in the learning plan)*
 
 ## Contact
-- **LinkedIn**: [Your LinkedIn URL]  
-- **GitHub**: [Your GitHub URL]
+- **LinkedIn**: [  ]  
+- **GitHub**: [  ]
