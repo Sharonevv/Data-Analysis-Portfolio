@@ -1,8 +1,8 @@
 -- Week 1 - Day 1 SQLBolt Practice
 -- By me: Sharone
 
--- Lesson 1, Exercise 1
--- Find the title of each film
+-- Lesson 1 SELECT queries 101 (https://sqlbolt.com/lesson/select_queries_introduction)
+-- Exercise 1, Find the title of each film
 SELECT title FROM movies;
 
 -- Lesson 1, Exercise 2
@@ -23,12 +23,11 @@ SELECT * FROM movies;
 
 
 
---Lesson 2, Excercise 1
---Find the movie with a row id of 6
+--Lesson 2 Queries with constraints [WHERE] (https://sqlbolt.com/lesson/select_queries_with_constraints)
+--Excercise 1, Find the movie with a row id of 6
 SELECT title FROM movies WHERE id = 6
 
 --Lesson 2, Exercise 2
---Find the movies released in the years between 2000 and 2010 
 SELECT title FROM movies WHERE year BETWEEN 2000 AND 2010;
 
 --Lesson 2, Excercise 3
@@ -42,8 +41,8 @@ SELECT title FROM movies WHERE year <= 2003;
 
 
 
---Lesson 3, Exercise 1
---Find all the Toy Story movies
+--Lesson 3 Queries with constraints [text patterns] (https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2)
+--Exercise 1 Find all the Toy Story movies
 SELECT title FROM movies WHERE title LIKE "toy stor%";
 
 --Lesson 3, Exercise 2
