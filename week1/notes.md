@@ -19,7 +19,9 @@
 ## Reflections
 I learned how to extract specific columns, filter by numbers, and filter text using patterns.
 
-# Week 1 – Day 2
+# Week 1 – Day 2 Notes 
+
+## Lessons Covered 
 - [Lesson 4 – ORDER BY](https://sqlbolt.com/lesson/select_queries_order)
 - [Lesson 5 – SELECT Review](https://sqlbolt.com/lesson/select_queries_review)
 - [Lesson 6 – JOINs](https://sqlbolt.com/lesson/select_queries_with_joins)
@@ -35,9 +37,20 @@ I learned how to extract specific columns, filter by numbers, and filter text us
 I learned how to sort results by one or more columns, combine tables using the INNER JOIN, apply filtering while sorting as well as maintaining a professional GitHub structure with clickable lesson links.
 
 
+# Week 1 – Day 3 Notes
 
+## Lessons Covered 
+- [Lesson 7 – OUTER JOINs](https://sqlbolt.com/lesson/select_queries_with_outer_joins)
+- [Lesson 8 – NULLs](https://sqlbolt.com/lesson/select_queries_with_nulls)
+- [Lesson 9 – Expressions](https://sqlbolt.com/lesson/select_queries_with_expressions)
 
+## Key Takeaways
+- OUTER JOINs: `LEFT` keeps all left rows; `RIGHT` keeps all right rows; `FULL` keeps both.
+- NULL ≠ 0 ≠ '' — use `IS NULL` / `IS NOT NULL`. Use `COALESCE(col, 0)` to replace NULLs.
+- Expressions can compute/transform directly in SQL; always alias with `AS` for clarity.
 
+## Reflections
+Okay so today I learned how to use 
 
 
 
