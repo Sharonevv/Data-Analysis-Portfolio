@@ -16,7 +16,7 @@
 
 - **Week 1–Day 5**: 
 
-## - **Week 1-Day1**
+## - **Week 1-Day 1**
 I learned about and practiced The SELECT statement, WHERE clause, AND OR Logical operators and the LIKE operator.
 (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
 
