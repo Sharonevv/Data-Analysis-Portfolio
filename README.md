@@ -8,13 +8,13 @@
 ### SQL
 - **Week 1–Day 1**: Basic SELECT queries — retrieving film titles, directors, etc.  
   
-- **Week 1–Day 2**: Sorting, filtering, and basic joins.  
+- **Week 1–Day 2**: Sorting, filtering, and basic joins (INNER JOIN).  
 
 ## - **Week 1-Day1**: SQL Basics
 **Goal:**  I Learned about and practiced The SELECT statement, WHERE clause, AND OR Logical operators and the LIKE operator.
 (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
 
-- **Week 1–Day 2**: I Learned about and practiced Sorting, filtering, and basic joins.  
+- **Week 1–Day 2**: I Learned about and practiced Sorting, filtering, and basic joins (the INNER JOIN).  
   (see [Week1 Day2](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day2.sql) for details)
 
 ### Files
