@@ -16,13 +16,16 @@
 
 - **Week 1–Day 5**: 
 
-## - **Week 1-Day1**: I learned about and practiced The SELECT statement, WHERE clause, AND OR Logical operators and the LIKE operator.
+## - **Week 1-Day1**
+I learned about and practiced The SELECT statement, WHERE clause, AND OR Logical operators and the LIKE operator.
 (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
 
-## - **Week 1–Day 2**: I learned about and practiced Sorting, filtering, and basic joins (the INNER JOIN) on real world data. 
+## - **Week 1–Day 2**
+I learned about and practiced Sorting, filtering, and basic joins (the INNER JOIN) on real world data. 
   (see [Week1 Day2](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day2.sql) for details)
 
-## - **Week 1–Day 3 **: I learned and practiced OUTER JOINs, NULL logic, and expressions on real world data. 
+## - **Week 1–Day 3**
+I learned and practiced OUTER JOINs, NULL logic, and expressions on real world data. 
 (see [Week1 Day3](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day2.sql) for details) 
 
 
