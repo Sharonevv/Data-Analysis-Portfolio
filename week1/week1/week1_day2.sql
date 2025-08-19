@@ -17,3 +17,5 @@ SELECT title FROM movies
 --List the next five Pixar movies sorted alphabetically
 SELECT title FROM movies
   ORDER BY title ASC LIMIT 5 OFFSET 5;
+
+Leson 5 Review: Simple SELECT https://sqlbolt.com/lesson/select_queries_review
