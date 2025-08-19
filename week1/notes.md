@@ -17,7 +17,7 @@
 - `!=` means "not equal to".
 
 ## Reflections
-I can now extract specific columns, filter by numbers, and filter text using patterns.
+I learned how to extract specific columns, filter by numbers, and filter text using patterns.
 
 # Week 1 – Day 2
 - [Lesson 4 – ORDER BY](https://sqlbolt.com/lesson/select_queries_order)
@@ -32,11 +32,7 @@ I can now extract specific columns, filter by numbers, and filter text using pat
 - Filtering and sorting together creates clean, readable query results.
 
 ## Reflections
-I can now:
-- Sort my results by one or more columns.
-- Combine tables using the INNER JOIN.
-- Apply filtering while sorting.
-- Maintain professional GitHub structure with clickable lesson links.
+I learned how to sort results by one or more columns, combine tables using the INNER JOIN, apply filtering while sorting as well as maintaining a professional GitHub structure with clickable lesson links.
 
 
 
