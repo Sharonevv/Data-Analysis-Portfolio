@@ -1,3 +1,5 @@
+--Week 1, Day 2 SQL bolt Exercises
+
 --Lesson 4 Exercise 1 (https://sqlbolt.com/lesson/filtering_sorting_query_results
 --List all directors of Pixar movies (alphabetically), without duplicates
 SELECT DISTINCT director FROM movies
