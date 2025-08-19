@@ -5,6 +5,7 @@
 - [Lesson 2: Queries with constraints (WHERE)](https://sqlbolt.com/lesson/select_queries_with_constraints)
 - [Lesson 3: Queries with constraints (text patterns)](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2)
 
+
 ## Key Takeaways
 - `SELECT column FROM table;` is the core of retrieving data.
 - `WHERE` filters rows based on conditions.
@@ -17,3 +18,37 @@
 
 ## Reflections
 I can now extract specific columns, filter by numbers, and filter text using patterns.
+
+# Week 1 – Day 2
+- [Lesson 4 – ORDER BY](https://sqlbolt.com/lesson/select_queries_order)
+- [Lesson 5 – SELECT Review](https://sqlbolt.com/lesson/select_queries_review)
+- [Lesson 6 – JOINs](https://sqlbolt.com/lesson/select_queries_with_joins)
+
+
+## Key Takeaways
+- `ORDER BY column ASC/DESC` sorts query results.
+- Multiple columns can be sorted by separating with commas.
+- `JOIN` combines data from multiple tables based on matching columns.
+- Filtering and sorting together creates clean, readable query results.
+
+## Reflections
+I can now:
+- Sort my results by one or more columns.
+- Combine tables using the INNER JOIN.
+- Apply filtering while sorting.
+- Maintain professional GitHub structure with clickable lesson links.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
