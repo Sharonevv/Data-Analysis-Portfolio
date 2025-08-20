@@ -16,5 +16,8 @@ FROM buildings
     ON building_name = building;
 
 
---Lesson 8 (      ) 
+--Lesson 8 A short note on NULLs (https://sqlbolt.com/lesson/select_queries_with_nulls) 
 --Exercise 1, hi
+
+--Lesson 8, Exercise 2
+--
