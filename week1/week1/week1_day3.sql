@@ -32,5 +32,12 @@ WHERE role IS NULL;
 
 
 
---Lesson 9, (       )
---Exercise 1
+--Lesson 9, Queries with expressions (https://sqlbolt.com/lesson/select_queries_with_expressions)
+--Exercise 1,
+
+--Lesson 9, Exercise 2
+
+
+
+
+
