@@ -1,6 +1,6 @@
 -- Week 1 - Day 3 SQLBolt Practice
 
--- Lesson 7 SELECT queries 101 (https://sqlbolt.com/lesson/select_queries_introduction)
+-- Lesson 7 OUTTER JOINs (https://sqlbolt.com/lesson/select_queries_with_outer_joins)
 -- Exercise 1,
 
 
