@@ -17,7 +17,7 @@ FROM buildings
 
 
 --Lesson 8 A short note on NULLs (https://sqlbolt.com/lesson/select_queries_with_nulls) 
---Exercise 1, hi
+--Exercise 1, Find the name and role of all employees who have not been assigned to a building 
 
 --Lesson 8, Exercise 2
---
+--Find the names of the buildings that hold no employees 
