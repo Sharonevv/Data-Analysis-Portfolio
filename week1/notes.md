@@ -50,7 +50,7 @@ I learned how to sort results by one or more columns, combine tables using the I
 - Expressions can compute/transform directly in SQL; always alias with `AS` for clarity.
 
 ## Reflections
-Okay so today I learned how to use 
+Okay so today I learned how to use OUTER JOINs, NULL and expressions. I did find Day 3 to be a bit challenging and it took me some time (an extra day) to really grasp the concepts. I had to go back to previous lessons and watch a few more videos as well especially on JOINs but alas I managed. 
 
 
 
