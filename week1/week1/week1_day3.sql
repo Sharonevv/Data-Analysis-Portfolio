@@ -38,6 +38,8 @@ WHERE role IS NULL;
    from movies join boxoffice on movies.id= boxoffice.movie_id;
 
 --Lesson 9, Exercise 2
+--List all movies and their ratings in percent
+
 
 
 
