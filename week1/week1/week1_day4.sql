@@ -13,3 +13,5 @@ GROUP BY role;
 
 --Lesson 10, Exercise 3
 --Find the total number of employee years worked in each building
+SELECT building, SUM (Years_employed) AS Sum_of_years_worked 
+  FROM employees GROUP BY building ;
