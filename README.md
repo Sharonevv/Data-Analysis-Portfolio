@@ -28,6 +28,9 @@ I learned about and practiced Sorting, filtering, and basic joins (the INNER JOI
 I learned and practiced OUTER JOINs, NULL logic, and expressions on real world data. 
 (see [Week1 Day3](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day3.sql) for details) 
 
+## - **Week 1-Day 4**
+I learned and practiced (see [Week1 Day4](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day4.sql) for details)
+
 
 ### Files
 - All of [week1](https://github.com/Sharonevv/Data-Analysis-Portfolio/tree/main/week1) sample queries from practice can be found here as well as week 1 [notes]( https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/notes.md ) which shows all table content of the day by day activity that I did and what I learned everyday.  
