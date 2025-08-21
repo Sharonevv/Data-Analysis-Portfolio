@@ -1,6 +1,6 @@
 -- Week 1 - Day 3 SQLBolt Practice
 
--- Lesson 7 OUTTER JOINs (https://sqlbolt.com/lesson/select_queries_with_outer_joins)
+-- Lesson 7 OUTER JOINs (https://sqlbolt.com/lesson/select_queries_with_outer_joins)
 -- Exercise 1, Find the list of all buildings that have employees 
 SELECT DISTINCT building FROM employees;
 
