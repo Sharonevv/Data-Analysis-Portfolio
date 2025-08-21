@@ -16,8 +16,13 @@ GROUP BY role;
 SELECT building, SUM (Years_employed) AS Sum_of_years_worked 
   FROM employees GROUP BY building ;
 
+
+
+
 --Lesson 11, Queries with aggregates (Pt. 2 ) (https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_2)
 --Exercise 1, Find the number of Artists in the studio (without a HAVING clause)
+SELECT COUNT(role) FROM employees WHERE role ='Artist';
+
 
 --Lesson 11, Exercise 2
 --Find the number of Employees of each role in the studio
