@@ -16,6 +16,7 @@ FROM buildings
     ON building_name = building;
 
 
+
 --Lesson 8 A short note on NULLs (https://sqlbolt.com/lesson/select_queries_with_nulls) 
 --Exercise 1, Find the name and role of all employees who have not been assigned to a building
 SELECT name, role FROM employees
@@ -31,7 +32,6 @@ WHERE role IS NULL;
 
 
 
-
 --Lesson 9, Queries with expressions (https://sqlbolt.com/lesson/select_queries_with_expressions)
 --Exercise 1, List all movies and their combined sales in millions of dollars
  SELECT title, (international_sales + domestic_sales) /1000000 as gross 
@@ -39,7 +39,11 @@ WHERE role IS NULL;
 
 --Lesson 9, Exercise 2
 --List all movies and their ratings in percent
+SELECT title, rating * 10 as percentage FROM movies join boxoffice 
+  on movies.Id = boxoffice.movie_Id 
 
+--Lesson 9, Excercise 3
+--
 
 
 
