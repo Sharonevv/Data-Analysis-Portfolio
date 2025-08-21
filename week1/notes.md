@@ -76,8 +76,6 @@ Today’s lesson showed me how to summarize and analyze data rather than just li
 For example, instead of listing all employees, I can quickly find total years worked,  
 average experience per role, or number of employees in each category.  
 
-This makes SQL more powerful for analytics — moving from raw data to insights.  
-It’s clicking now that this is the foundation of data analysis.
 
 
 
