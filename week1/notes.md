@@ -6,7 +6,7 @@
 - [Lesson 3: Queries with constraints (text patterns)](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2)
 
 
-### Key Takeaways
+## Key Takeaways
 - `SELECT column FROM table;` is the core of retrieving data.
 - `WHERE` filters rows based on conditions.
 - Text matching can use:
@@ -16,7 +16,7 @@
   - `_` matches a single character in LIKE patterns
 - `!=` means "not equal to".
 
-#### Reflections
+### Reflections
 I learned how to extract specific columns, filter by numbers, and filter text using patterns.
 
 # Week 1 – Day 2 Notes 
@@ -44,12 +44,6 @@ I learned how to sort results by one or more columns, combine tables using the I
 - [Lesson 8 – NULLs](https://sqlbolt.com/lesson/select_queries_with_nulls)
 - [Lesson 9 – Expressions](https://sqlbolt.com/lesson/select_queries_with_expressions)
 
-## Lessons Covered 
-- [Lesson 10 – Aggregation (Part 1)](https://sqlbolt.com/lesson/select_queries_with_aggregates)
-- [Lesson 11 – Aggregation + GROUP BY](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_2)
-- [Lesson 12 – Review with GROUP BY](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_3)
-- [Lesson 13 – HAVING (filtering groups)](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_4)
-
 
 ## Key Takeaways
 - OUTER JOINs: `LEFT` keeps all left rows; `RIGHT` keeps all right rows; `FULL` keeps both.
@@ -60,6 +54,13 @@ I learned how to sort results by one or more columns, combine tables using the I
 Okay so today I learned how to use OUTER JOINs, NULL and expressions. I did find Day 3 to be a bit challenging and it took me some time (an extra day) to really grasp the concepts. I had to go back to previous lessons and watch a few more videos as well especially on JOINs but alas I managed. 
 
 # Week 1 Day- 4 Notes
+
+## Lessons Covered 
+- [Lesson 10 – Aggregation (Part 1)](https://sqlbolt.com/lesson/select_queries_with_aggregates)
+- [Lesson 11 – Aggregation + GROUP BY](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_2)
+- [Lesson 12 – Review with GROUP BY](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_3)
+- [Lesson 13 – HAVING (filtering groups)](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_4)
+
 
 ## Key Takeaways 
 - I learned to use aggregate functions:
