@@ -33,7 +33,9 @@ WHERE role IS NULL;
 
 
 --Lesson 9, Queries with expressions (https://sqlbolt.com/lesson/select_queries_with_expressions)
---Exercise 1,
+--Exercise 1, List all movies and their combined sales in millions of dollars
+ SELECT title, (international_sales + domestic_sales) /1000000 as gross 
+   from movies join boxoffice on movies.id= boxoffice.movie_id;
 
 --Lesson 9, Exercise 2
 
