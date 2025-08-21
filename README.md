@@ -10,9 +10,9 @@
   
 - **Week 1–Day 2**: Sorting, filtering, and basic joins (INNER JOIN).
   
-- **Week 1–Day 3**:  OUTER JOINs, NULL logic, and expressions.
+- **Week 1–Day 3**: OUTER JOINs, NULL logic, and expressions.
 
-- **Week 1–Day 4**:
+- **Week 1–Day 4**: SQL aggregate functions (MAX, AVG, SUM, and COUNT) and GROUP BY. 
 
 - **Week 1–Day 5**: 
 
@@ -29,7 +29,8 @@ I learned and practiced OUTER JOINs, NULL logic, and expressions on real world d
 (see [Week1 Day3](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day3.sql) for details) 
 
 ## - **Week 1-Day 4**
-I learned and practiced (see [Week1 Day4](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day4.sql) for details)
+I learned and practiced using SQL aggregate functions like MAX, AVG, SUM, and COUNT to summarize data. I also applied GROUP BY with these functions to analyze roles, buildings, and employee categories more effectively.
+ (see [Week1 Day4](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day4.sql) for details)
 
 
 ### Files
