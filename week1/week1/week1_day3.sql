@@ -43,7 +43,7 @@ SELECT title, rating * 10 as percentage FROM movies join boxoffice
   on movies.Id = boxoffice.movie_Id 
 
 --Lesson 9, Excercise 3
---
+--List all movies that were released on even number years
 
 
 
