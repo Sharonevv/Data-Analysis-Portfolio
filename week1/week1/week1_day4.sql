@@ -1,4 +1,4 @@
-
+-- Week 1 - Day 4 SQLBolt Practice
 
 --Lesson 10 Queries with aggregates (Pt. 1) (https://sqlbolt.com/lesson/select_queries_with_aggregates) 
 --Exercise 1 Find the longest time that an employee has been at the studio 
@@ -15,3 +15,18 @@ GROUP BY role;
 --Find the total number of employee years worked in each building
 SELECT building, SUM (Years_employed) AS Sum_of_years_worked 
   FROM employees GROUP BY building ;
+
+--Lesson 11, hi( )
+--Exercise 1,
+
+--Lesson 11, Exercise 2
+--
+
+
+--Lesson 11, Exercise 3
+--
+
+
+--Lesson11, Exercise 4
+--
+
