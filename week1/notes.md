@@ -6,7 +6,7 @@
 - [Lesson 3: Queries with constraints (text patterns)](https://sqlbolt.com/lesson/select_queries_with_constraints_pt_2)
 
 
-## Key Takeaways
+### Key Takeaways
 - `SELECT column FROM table;` is the core of retrieving data.
 - `WHERE` filters rows based on conditions.
 - Text matching can use:
@@ -16,7 +16,7 @@
   - `_` matches a single character in LIKE patterns
 - `!=` means "not equal to".
 
-## Reflections
+#### Reflections
 I learned how to extract specific columns, filter by numbers, and filter text using patterns.
 
 # Week 1 – Day 2 Notes 
@@ -45,6 +45,11 @@ I learned how to sort results by one or more columns, combine tables using the I
 - [Lesson 9 – Expressions](https://sqlbolt.com/lesson/select_queries_with_expressions)
 
 ## Lessons Covered 
+- [Lesson 10 – Aggregation (Part 1)](https://sqlbolt.com/lesson/select_queries_with_aggregates)
+- [Lesson 11 – Aggregation + GROUP BY](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_2)
+- [Lesson 12 – Review with GROUP BY](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_3)
+- [Lesson 13 – HAVING (filtering groups)](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_4)
+
 
 ## Key Takeaways
 - OUTER JOINs: `LEFT` keeps all left rows; `RIGHT` keeps all right rows; `FULL` keeps both.
@@ -67,10 +72,10 @@ Okay so today I learned how to use OUTER JOINs, NULL and expressions. I did find
 
 ### Reflection
 Today’s lesson showed me how to summarize and analyze data rather than just listing it.  
-For example, instead of listing all employees, I can quickly find **total years worked**,  
-**average experience per role**, or **number of employees in each category**.  
+For example, instead of listing all employees, I can quickly find total years worked,  
+average experience per role, or number of employees in each category.  
 
-This makes SQL more powerful for **analytics** — moving from raw data to insights.  
+This makes SQL more powerful for analytics — moving from raw data to insights.  
 It’s clicking now that this is the foundation of data analysis.
 
 
