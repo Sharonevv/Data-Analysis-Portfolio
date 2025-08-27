@@ -58,8 +58,6 @@ Okay so today I learned how to use OUTER JOINs, NULL and expressions. I did find
 ## Lessons Covered 
 - [Lesson 10 – Aggregation (Part 1)](https://sqlbolt.com/lesson/select_queries_with_aggregates)
 - [Lesson 11 – Aggregation + GROUP BY](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_2)
-- [Lesson 12 – Review with GROUP BY](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_3)
-- [Lesson 13 – HAVING (filtering groups)](https://sqlbolt.com/lesson/select_queries_with_aggregates_pt_4)
 
 
 ## Key Takeaways 
