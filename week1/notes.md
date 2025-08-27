@@ -84,15 +84,13 @@ average experience per role, or number of employees in each category.
 - [Lesson 14 – Updating Rows](https://sqlbolt.com/lesson/updating_rows)
 - [Lesson 15 – Deleting Rows](https://sqlbolt.com/lesson/deleting_rows)  
 ## Key Takeaways 
-- I learned about the SQL Execution Order: Understand how FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY works; it prevents errors with aliases, aggregates, and filters.
--  Updating Data: UPDATE lets you modify existing rows safely; always use WHERE to avoid affecting the entire table.
--  Deleting Data: DELETE removes rows permanently; preview with SELECT first to avoid mistakes.
--  Creating Tables: CREATE TABLE defines structure, types, and constraints, protecting data integrity from day one.
+- I learned about the SQL Execution Order: Understand how FROM → `WHERE → GROUP BY → HAVING → SELECT → ORDER BY` works; it prevents errors with aliases, aggregates, and filters.
+-  Updating Data: `UPDATE` lets you modify existing rows safely; always use WHERE to avoid affecting the entire table.
+-  Deleting Data: `DELETE` removes rows permanently; preview with `SELECT` first to avoid mistakes.
+-  Creating Tables: `CREATE TABLE` defines structure, types, and constraints, protecting data integrity from day one.
 
 ### Reflection
-
-
-
+Alright, so I dived into SQL’s execution order, learned how to safely update and delete data, and practiced creating tables with proper constraints. These lessons showed me how to manipulate and structure data like a real-world analyst.
 
 
 
