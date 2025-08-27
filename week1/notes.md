@@ -7,7 +7,7 @@
 
 
 ## Key Takeaways
-- `SELECT column FROM table;` is the core of retrieving data.
+- I learned about `SELECT column FROM table;` is the core of retrieving data.
 - `WHERE` filters rows based on conditions.
 - Text matching can use:
   - `=` for exact matches
@@ -28,7 +28,7 @@ I learned how to extract specific columns, filter by numbers, and filter text us
 
 
 ## Key Takeaways
-- `ORDER BY column ASC/DESC` sorts query results.
+- I learned about `ORDER BY column ASC/DESC` sorts query results.
 - Multiple columns can be sorted by separating with commas.
 - `JOIN` combines data from multiple tables based on matching columns.
 - Filtering and sorting together creates clean, readable query results.
@@ -46,7 +46,7 @@ I learned how to sort results by one or more columns, combine tables using the I
 
 
 ## Key Takeaways
-- OUTER JOINs: `LEFT` keeps all left rows; `RIGHT` keeps all right rows; `FULL` keeps both.
+- I learned about OUTER JOINs: `LEFT` keeps all left rows; `RIGHT` keeps all right rows; `FULL` keeps both.
 - NULL ≠ 0 ≠ '' — use `IS NULL` / `IS NOT NULL`. Use `COALESCE(col, 0)` to replace NULLs.
 - Expressions can compute/transform directly in SQL; always alias with `AS` for clarity.
 
@@ -75,7 +75,21 @@ For example, instead of listing all employees, I can quickly find total years wo
 average experience per role, or number of employees in each category.  
 
 
+# Week 1 -Day 5
 
+
+## Lessons Covered 
+- [Lesson 12 – Order of Execution](https://sqlbolt.com/lesson/select_queries_order_of_execution)  
+- [Lesson 13 – Inserting Rows](https://sqlbolt.com/lesson/inserting_rows)
+- [Lesson 14 – Updating Rows](https://sqlbolt.com/lesson/updating_rows)
+- [Lesson 15 – Deleting Rows](https://sqlbolt.com/lesson/deleting_rows)  
+## Key Takeaways 
+- I learned about the SQL Execution Order: Understand how FROM → WHERE → GROUP BY → HAVING → SELECT → ORDER BY works; it prevents errors with aliases, aggregates, and filters.
+-  Updating Data: UPDATE lets you modify existing rows safely; always use WHERE to avoid affecting the entire table.
+-  Deleting Data: DELETE removes rows permanently; preview with SELECT first to avoid mistakes.
+-  Creating Tables: CREATE TABLE defines structure, types, and constraints, protecting data integrity from day one.
+
+### Reflection
 
 
 
