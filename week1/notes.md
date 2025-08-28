@@ -75,7 +75,7 @@ For example, instead of listing all employees, I can quickly find total years wo
 average experience per role, or number of employees in each category.  
 
 
-# Week 1 -Day 5
+# Week 1 -Day 5 Notes
 
 
 ## Lessons Covered 
@@ -92,6 +92,15 @@ average experience per role, or number of employees in each category.
 ### Reflection
 Alright, so I dived into SQL’s execution order, learned how to safely update and delete data, and practiced creating tables with proper constraints. These lessons showed me how to manipulate and structure data like a real-world analyst.
 
+# Week 1 Day 6 Notes
+
+
+## Lessons Covered 
+
+## Key Takeaways 
+
+### Reflection
+Wow so the closing of my beginner journey on SQL. I learned about Creating, Altering and Dropping tables. This was probably the easiest and straight forward of the entire Lessons and I'm so grateful I came across SQL bolt, it gave me a sense of direction in getting to learn sql. I tried before but always wondered off track. 
 
 
 
