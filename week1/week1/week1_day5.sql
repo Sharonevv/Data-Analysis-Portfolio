@@ -13,7 +13,6 @@ SELECT director, SUM(domestic_sales + international_sales) AS  gross_sales_per_d
 
 
 
-
 --Lesson 13 Inserting rows (https://sqlbolt.com/lesson/inserting_rows)
 --Exercise 1, Add the studio's new production, Toy Story 4 to the list of movies (you can use any director)
 INSERT INTO movies VALUES(15, "Toy Story 4","Sharone Boois", 2025, 135);
