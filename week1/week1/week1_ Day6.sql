@@ -21,3 +21,14 @@ ALTER TABLE movies ADD COLUMN Aspect_Ratio FLOAT;
 
 --Lesson 17, Exercise 2 Add another column named Language with a TEXT data type to store the language that the movie was released in.
 --Ensure that the default for this language is English
+ALTER TABLE movies ADD COLUMN Language TEXT DEFAULT "ENGLISH";
+
+
+
+
+--Lesson 18 Dropping table (https://sqlbolt.com/lesson/dropping_tables)
+--Exercise 1, We've sadly reached the end of our lessons, lets clean up by removing the Movies table
+
+
+--Lesson 18, Exercise 2
+--And drop the BoxOffice table as well
