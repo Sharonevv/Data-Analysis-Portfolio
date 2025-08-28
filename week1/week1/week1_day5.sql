@@ -1,4 +1,4 @@
-
+-- Week 1 - Day 5 SQLBolt Practice
 
 --Lesson 12 Order of execution of a Query  (https://sqlbolt.com/lesson/select_queries_order_of_execution) 
 --Exercise 1, Find the number of movies each director has directed
