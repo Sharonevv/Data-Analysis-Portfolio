@@ -1,7 +1,22 @@
 --Week 1- Day6 SQLbolt Practice 
 
---Lesson 16 Creating Tables (hil CREATE TABLE Database (
+--Lesson 16 Creating Tables (https://sqlbolt.com/lesson/creating_tables)
+-- Exercise, Create a new table named Database with the following columns:
+--Name A string (text) describing the name of the database
+-- Version A number (floating point) of the latest version of this database
+--Download_count An integer count of the number of times this database was downloaded
+CREATE TABLE Database (
     Name TEXT,
     Version FLOAT,
     Download_count INTEGER
 );
+
+
+
+
+--Lesson 17 Altering tables (https://sqlbolt.com/lesson/altering_tables)
+--Exercise 1, Add a column named Aspect_ratio with a FLOAT data type to store the aspect-ratio each movie was released in.
+--Add another column named Language with a TEXT data type to store the language that the movie was released in.
+
+
+--Lesson 17, Exercise 2Ensure that the default for this language is English
