@@ -28,7 +28,9 @@ ALTER TABLE movies ADD COLUMN Language TEXT DEFAULT "ENGLISH";
 
 --Lesson 18 Dropping table (https://sqlbolt.com/lesson/dropping_tables)
 --Exercise 1, We've sadly reached the end of our lessons, lets clean up by removing the Movies table
-
+DROP TABLE movies;
 
 --Lesson 18, Exercise 2
 --And drop the BoxOffice table as well
+DROP TABLE  Boxoffice;
+
