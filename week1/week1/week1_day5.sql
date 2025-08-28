@@ -28,9 +28,14 @@ INSERT INTO boxoffice VALUES (15, 8.7, 340000000, 270000000);
 
 --Lesson 14 Updating Rows (https://sqlbolt.com/lesson/updating_rows)
 --Exercise 1, The director for A Bug's Life is incorrect, it was actually directed by John Lasseter
+UPDATE movies SET Director = "John Lasseter" WHERE Title = "A Bug's Life";
 
 --Lesson 14, Exercise 2
 --The year that Toy Story 2 was released is incorrect, it was actually released in 1999
+UPDATE movies SET Year = 1999 WHERE Title = "Toy Story 2";
+
+--Lesson 14, Exercise 3
+--Both the title and director for Toy Story 8 is incorrect! The title should be "Toy Story 3" and it was directed by Lee Unkrich
 
 
 
