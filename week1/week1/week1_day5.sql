@@ -44,13 +44,12 @@ UPDATE movies SET Director = "Lee Unkrich" WHERE Director = "El Directore";
 
 
 --Lesson 15 Deleting Rows (https://sqlbolt.com/lesson/deleting_rows)
---Exercise 1
---This database is getting too big, lets remove all movies that were released before 2005.
-
+--Exercise 1, This database is getting too big, lets remove all movies that were released before 2005.
+DELETE FROM movies where year < 2005;
 
 --Lesson 15, Exercise 2
 --Andrew Stanton has also left the studio, so please remove all movies directed by him
-
+DELETE FROM movies WHERE director = "Andrew Stanton";
 
 
 
