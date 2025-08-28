@@ -94,10 +94,16 @@ Alright, so I dived into SQL’s execution order, learned how to safely update a
 
 # Week 1 Day 6 Notes
 
-
 ## Lessons Covered 
+- [Lesson 16 – Creating Tables](https://sqlbolt.com/lesson/creating_tables)  
+- [Lesson 17 – Altering Tables](https://sqlbolt.com/lesson/altering_tables)  
+- [Lesson 18 – Dropping Tables](https://sqlbolt.com/lesson/dropping_tables)
 
 ## Key Takeaways 
+-`CREATE TABLE ` lets you create tables in a database 
+-`ALTER TABLE` lets you change structure without losing data (add, drop, rename, modify columns).
+-`DROP TABLE` deletes a table completely—use with caution.
+
 
 ### Reflection
 Wow so the closing of my beginner journey on SQL. I learned about Creating, Altering and Dropping tables. This was probably the easiest and straight forward of the entire Lessons and I'm so grateful I came across SQL bolt, it gave me a sense of direction in getting to learn sql. I tried before but always wondered off track. 
