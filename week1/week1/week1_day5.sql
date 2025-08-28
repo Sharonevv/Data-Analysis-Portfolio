@@ -16,12 +16,19 @@ SELECT director, SUM(domestic_sales + international_sales) AS  gross_sales_per_d
 
 --Lesson 13 Inserting rows (https://sqlbolt.com/lesson/inserting_rows)
 --Exercise 1, Add the studio's new production, Toy Story 4 to the list of movies (you can use any director)
-INSERT INTO movies VALUES(4, "Toy Story 4","Sharone Boois", 2025, 135);
+INSERT INTO movies VALUES(15, "Toy Story 4","Sharone Boois", 2025, 135);
 
 
 --Lesson 13, Exercise 2
 --Toy Story 4 has been released to critical acclaim! It had a rating of 8.7, and made 340 million domestically and 270 million internationally. 
 --Add the record to the BoxOffice table.
+INSERT INTO boxoffice VALUES (15, 8.7, 340000000, 270000000);
+
+--Lesson 14 hi (hi)
+--Exercise 1, 
+
+--Lesson 14, Exercise 2
+--
 
 
 
