@@ -16,6 +16,10 @@
 
 - **Week 1–Day 5**: Order of Execution, Inserting Rows, Updating Rows, Deleting Rows
 
+- **Week 1- Day6**: Creating tables, Altering tables and Dropping tables
+
+
+
 ## - **Week 1-Day 1**
 I learned about and practiced The SELECT statement, WHERE clause, AND OR Logical operators and the LIKE operator.
 (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
@@ -35,6 +39,9 @@ I learned and practiced using SQL aggregate functions like MAX, AVG, SUM, and CO
 ## - **Week 1 Day 5**
 I learned about SQL’s execution order, learned how to safely update and delete data, and practiced creating tables with proper constraints. These lessons showed me how to manipulate and structure data like a real-world analyst.
 (see [Week1 Day5](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day5.sql) for details)
+## - **Week1 Day 6**
+This was was my conclusion to the SQLbolt Beginner Lessons and practice exercises I learned how to Create tables, Altering within tables and Dropping within tables in the database. (see [Week1_Day6](http//:) for details)
+
 
 
 ### Files
