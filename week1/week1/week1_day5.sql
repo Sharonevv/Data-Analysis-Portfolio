@@ -36,6 +36,23 @@ UPDATE movies SET Year = 1999 WHERE Title = "Toy Story 2";
 
 --Lesson 14, Exercise 3
 --Both the title and director for Toy Story 8 is incorrect! The title should be "Toy Story 3" and it was directed by Lee Unkrich
+UPDATE movies SET Title = "Toy Story 3" WHERE  Title = "Toy Story 8"; 
+UPDATE movies SET Director = "Lee Unkrich" WHERE Director = "El Directore";
+
+
+
+
+
+--Lesson 15 Deleting Rows (https://sqlbolt.com/lesson/deleting_rows)
+--Exercise 1
+--This database is getting too big, lets remove all movies that were released before 2005.
+
+
+--Lesson 15, Exercise 2
+--Andrew Stanton has also left the studio, so please remove all movies directed by him
+
+
+
 
 
 
