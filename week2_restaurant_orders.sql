@@ -73,7 +73,7 @@ SELECT AVG(Price) AS Avg_order_price FROM restaurant_orders;
 SELECT SUM(Quantity) AS Sum_of_quantity FROM restaurant_orders;
 
 
---TOPIC 4: GROUP BY
+--TOPIC 5: GROUP BY
 
 --19. Write a query to calculate the total quantity ordered for each category.
 SELECT Category, SUM(Quantity) AS total_quantity 
@@ -90,6 +90,42 @@ SELECT COUNT(*) AS Num_orders FROM restaurant_orders
 --22. Write a query to find the highest price in each category.
 SELECT Category, MAX(Price) AS Max_price FROM restaurant_orders 
   GROUP BY Category;
+
+
+--TOPIC 6 LIMIT / OFFSET 
+
+--23. Write a query to select the top 3 most expensive orders.
+SELECT TOP 3 * FROM restaurant_orders 
+  ORDER BY price DESC;
+
+--24. Write a query to skip the first 5 orders and show the next 5 orders.
+SELECT * FROM restaurant_orders ORDER BY order_id
+  OFFSET 5 ROWS FETCH NEXT 5 ROWS ONLY;
+
+
+--TOPIC 7 Combining Clauses
+
+--25. Write a query to select customer name, food item, and price for all dessert orders, sorted by price descending.
+SELECT Customer Name, Food Item, Price FROM restaurant_orders WHERE Category = 'Dessert' 
+  ORDER BY Price DESC;
+
+--26. Write a query to count the number of orders per customer, but only include orders where quantity is greater than 1.
+SELECT customer_name, COUNT(*) AS num_orders
+  FROM restaurant_orders WHERE quantity > 1 GROUP BY customer_name;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
