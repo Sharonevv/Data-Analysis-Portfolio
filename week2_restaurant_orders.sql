@@ -13,4 +13,14 @@ SELECT Customer Name, Food Item FROM restaurant_orders;
 --3. Write a query to show only the first 5 rows of the restaurant_orders table.
 SELECT TOP 5 * FROM restaurant_orders;
 
+--4. Write a query to select all orders where the (c4)Category is ‘Dessert’.
+SELECT Category FROM restaurant_orders WHERE Category = 'Dessert'; 
+
+--5. Write a query to select all orders where the quantity is greater than 2.
+SELECT Quantity FROM restaurant_orders WHERE Quantity > 2;
+
+
+
+
+
 
