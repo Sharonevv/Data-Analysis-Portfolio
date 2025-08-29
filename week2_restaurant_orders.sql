@@ -10,3 +10,7 @@ SELECT * FROM restaurant_orders;
 --2. Write a query to select only the customer name and food item columns from restaurant_orders table.
 SELECT Customer Name, Food Item FROM restaurant_orders;
 
+--3. Write a query to show only the first 5 rows of the restaurant_orders table.
+SELECT TOP 5 * FROM restaurant_orders;
+
+
