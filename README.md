@@ -53,8 +53,8 @@ This was was my conclusion to the SQLbolt Beginner Lessons and practice exercise
 *(Coming soon – building dashboards and pivot tables)*
 
 ### Python
-- Here are some python mini practice projects I worked:
-  (weather bot)
+Here are some python mini practice projects I worked:
+- [Weather bot](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Python%20Minis/Weather_bot.py)
 
 ### Power BI
 *(Coming later in the learning plan)*
