@@ -1,3 +1,16 @@
+# Mood Analyser & Tracker
+# This program helps users track and reflect on their moods over time.
+# It demonstrates:
+# - input() to collect user mood entries
+# - string manipulation and punctuation removal for accurate word matching
+# - lists and dictionaries to store positive/negative words and replacement suggestions
+# - for loops to analyze each word in a mood entry
+# - if / elif / else statements to count positive and negative words
+# - while loops to continue tracking entries until the user decides to stop
+# - basic sentiment analysis and positive reframing of negative words
+# - simple progress tracking (number of entries and counts of positive/negative words)
+# - user feedback and encouragement based on mood trends
+
 import string
 
 print("Welcome to the Mood Analyser & Tracker")
