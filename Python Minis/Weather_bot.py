@@ -1,14 +1,13 @@
-"""
-Weather_bot.py
-This program asks the user for the current weather and responds with a recommendation based on the input.
-It handles single weather types and some combinations,
-demonstrating the use of:
-- input()
-- if / elif / else conditionals
-- logical operators (and)
-- string membership ('in')
-- .lower() for case-insensitive input
-"""
+# Weather Bot
+# This program asks the user for the current weather and provides a recommendation based on the input.
+# It demonstrates:
+# - input() to collect user input
+# - if / elif / else statements to handle different weather scenarios
+# - logical operators (and) to handle multiple conditions
+# - string membership checks using 'in'
+# - .lower() for case-insensitive input handling
+# - simple decision-making and user guidance based on conditions
+
 
 # Get the weather input from the user and convert to lowercase
 weather = input("Hey, what's the weather like today? ").lower()
