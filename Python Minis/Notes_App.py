@@ -1,3 +1,13 @@
+# Notes App
+# This program allows the user to manage notes across three categories: work, personal, and ideas.
+# It demonstrates:
+# - input() to get user input
+# - if / elif / else statements for handling different actions (add, view, remove, replace)
+# - while loops to keep the program running until the user chooses to exit
+# - list operations (append, pop, indexing) for managing notes
+# - enumerating a list to display numbered notes
+# - simple error handling for invalid input
+
 print("Hello and Welcome to your Notes App!")
 
 notes = {
