@@ -5,14 +5,13 @@
 --Name A string (text) describing the name of the database
 -- Version A number (floating point) of the latest version of this database
 --Download_count An integer count of the number of times this database was downloaded
+
+
 CREATE TABLE Database (
     Name TEXT,
     Version FLOAT,
     Download_count INTEGER
 );
-
-
-
 
 --Lesson 17 Altering tables (https://sqlbolt.com/lesson/altering_tables)
 --Exercise 1, Add a column named Aspect_ratio with a FLOAT data type to store the aspect-ratio each movie was released in.
