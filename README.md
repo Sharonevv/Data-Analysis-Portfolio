@@ -52,7 +52,7 @@ This was was my conclusion to the SQLbolt Beginner Lessons and practice exercise
 ### Excel
 
 ## - **Payroll Project**
-Entered employee data, computed gross pay/ net pay, applied deductions and taxes via formulas, formatted the sheet for readability, maybe used absolute vs relative references. (see [Payroll](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Payroll.PDF)for the end results screenshot)
+Entered employee data, computed gross pay/ net pay, applied deductions and taxes via formulas, formatted the sheet for readability, maybe used absolute vs relative references. (see [Payroll ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Payroll.PDF)for the end results screenshot)
 
 
 ## - **Gradebook Project**
