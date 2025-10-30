@@ -125,7 +125,7 @@ Setup an inventory spreadsheet for vehicles: columns for make/model/year/price/s
 
 ### - **Problem-Solving Projects**  
 Developed reusable Excel templates for common business problems, including ROI, break-even, and cost analysis.  
-Included pre-set formulas and guides for user inputs. (see [Shopping List 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1)(1).PDF) and [Holiday Decider ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF) and [Pet Decider](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF) for the end results screenshot)
+Included pre-set formulas and guides for user inputs. (see [Shopping List 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/ShoppingList.PDF) and [Holiday Decider ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/HolidayDecider.PDF)and [Pet Decider](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF) for the end results screenshot)
 
 **Skills Practiced:**  
 - Financial modeling  
@@ -133,12 +133,15 @@ Included pre-set formulas and guides for user inputs. (see [Shopping List 1](htt
 - Template design for reusability
 
 ### Python
-Here are some Python mini practice projects I did:
-- [Weather bot](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Python%20Minis/Weather_bot.py) It asks the user for the weather and recommends appropriate clothing 
+## Here are some Python mini practice projects I did:
+
+**The Weather bot**
+- [Weather bot](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Python%20Minis/Weather_bot.py) It asks the user for the weather and recommends appropriate clothing
+- 
 
 ### Power BI
 *(Coming later in the learning plan)*
 
 ## Contact
-- **LinkedIn**: [  ]  
-- **GitHub**: [  ]
+**Email**[Sharoneboois40@gmail.com]
+
