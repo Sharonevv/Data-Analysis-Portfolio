@@ -51,6 +51,38 @@ This was was my conclusion to the SQLbolt Beginner Lessons and practice exercise
 
 ### Excel
 
+##  Summary
+
+Through these projects, I practiced:
+- Data organization, cleaning, and analysis  
+- Advanced formulas and logical functions  
+- Pivot Tables, charts, and scenario modeling  
+- Professional Excel formatting and automation principles
+
+**Core Skills Practiced**
+- Data organization, cleaning, and presentation  
+- Professional spreadsheet formatting and layout  
+- Logical decision-making and financial modeling  
+- Scenario analysis and automated dashboards  
+
+**Advanced Excel Formulas Used**
+- **Lookup & Reference:** `VLOOKUP`, `HLOOKUP`, `INDEX`, `MATCH`  
+- **Conditional Logic:** `IF`, `AND`, `OR`, nested `IF` statements  
+- **Statistical & Math:** `SUM`, `AVERAGE`, `MIN`, `MAX`, `ROUND`, `ABS`  
+- **Conditional Math:** `SUMIF`, `SUMIFS`, `COUNTIF`, `AVERAGEIF`  
+- **Date & Time:** `TODAY`, `NOW`, `DATEDIF`, `YEAR`, `MONTH`, `DAY`  
+- **Text Functions:** `LEFT`, `RIGHT`, `MID`, `CONCATENATE`, `TEXTJOIN`  
+- **Error Handling:** `IFERROR`, `ISBLANK`, `ISNUMBER`  
+- **Referencing:** Absolute vs relative cell references, named ranges  
+
+**Data Tools & Features**
+- Pivot Tables and Pivot Charts  
+- Conditional Formatting  
+- Data Validation & Dropdown Lists  
+- Sorting, Filtering, and Subtotals  
+- What-If Analysis & Scenario Manager  
+- Charting and Dashboard creati
+
 ## - **Payroll Project**
 Entered employee data, computed gross pay/ net pay, applied deductions and taxes via formulas, formatted the sheet for readability, used absolute vs relative references. (see [Payroll ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Payroll.PDF)for the end results screenshot)
 
@@ -70,6 +102,10 @@ Created a sales data workbook: imported or entered raw sales data, used pivot ta
 ## - **Car Inventory Project**
 Setup an inventory spreadsheet for vehicles: columns for make/model/year/price/status, used formulas to compute totals/averages, used data filters/sorting to view certain criteria, cleaned data and created a dashboard view. (see [Car Inventory SS 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1)(1).PDF) and [Second Screenshot ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF)for the end results screenshot)
 
+
+### - **Problem-Solving Projects**  
+Developed reusable Excel templates for common business problems, including ROI, break-even, and cost analysis.  
+Included pre-set formulas and guides for user inputs. (see [Shopping List 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1)(1).PDF) and [Holiday Decider ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF) and [Pet Decider](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF) for the end results screenshot)
 
 ### Python
 Here are some Python mini practice projects I did:
