@@ -19,7 +19,6 @@
 - **Week 1- Day6**: Creating tables, Altering tables and Dropping tables
 
 
-
 ## - **Week 1-Day 1**
 I learned about and practiced The SELECT statement, WHERE clause, AND OR Logical operators and the LIKE operator.
 (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
@@ -54,10 +53,6 @@ This was was my conclusion to the SQLbolt Beginner Lessons and practice exercise
 ##  Summary
 
 Through these projects, I practiced:
-- Data organization, cleaning, and analysis  
-- Advanced formulas and logical functions  
-- Pivot Tables, charts, and scenario modeling  
-- Professional Excel formatting and automation principles
 
 **Core Skills Practiced**
 - Data organization, cleaning, and presentation  
@@ -86,26 +81,56 @@ Through these projects, I practiced:
 ## - **Payroll Project**
 Entered employee data, computed gross pay/ net pay, applied deductions and taxes via formulas, formatted the sheet for readability, used absolute vs relative references. (see [Payroll ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Payroll.PDF)for the end results screenshot)
 
+**Skills Practiced:**  
+- Arithmetic & logical formulas  
+- Absolute vs relative references  
+- Cell formatting and data validation  
+
 
 ## - **Gradebook Project**
 Created a workbook to track student grades, used formulas to compute averages, conditional formatting to highlight pass/fail, sorted data, charted grade distributions. (see [Gradebook 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/GradeBook%20(1)(2).PDF) and [Second Gradebook Results](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/GradeBook%20(1)(1).PDF) for the end results screenshot)
+
+**Skills Practiced:**  
+- AVERAGE, MAX, MIN functions  
+- Conditional formatting rules  
+- Sorting, filtering, and chart creation  
 
 
 ## - **Decision Factors Project**
 Built a decision-matrix or scenario model: set up input cells, used lookup functions (e.g., VLOOKUP), built formulas to evaluate multiple criteria, arranged sliders or dropdowns for inputs. (see [Decision Factors](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for the end results screenshot)
 
+**Skills Practiced:**  
+- VLOOKUP, HLOOKUP, and IF formulas  
+- Weighted scoring logic  
+- Scenario analysis and what-if modeling 
+
 
 ## - **Sales Data Workbook**
 Created a sales data workbook: imported or entered raw sales data, used pivot tables to summarize by product/time/region, created charts showing trends, used filters and data validation. (see [Sales Data](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for the end results screenshot)
+
+**Skills Practiced:**  
+- Pivot Tables & Pivot Charts  
+- Sorting and filtering data  
+- Dynamic reporting & charting  
 
 
 ## - **Car Inventory Project**
 Setup an inventory spreadsheet for vehicles: columns for make/model/year/price/status, used formulas to compute totals/averages, used data filters/sorting to view certain criteria, cleaned data and created a dashboard view. (see [Car Inventory SS 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1)(1).PDF) and [Second Screenshot ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF)for the end results screenshot)
 
+**Skills Practiced:**  
+- Data entry and table formatting  
+- SUMIF, COUNTIF, and AVERAGEIF functions 
+- Data filters and dashboard design  
+
 
 ### - **Problem-Solving Projects**  
 Developed reusable Excel templates for common business problems, including ROI, break-even, and cost analysis.  
 Included pre-set formulas and guides for user inputs. (see [Shopping List 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1)(1).PDF) and [Holiday Decider ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF) and [Pet Decider](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF) for the end results screenshot)
+
+**Skills Practiced:**  
+- Financial modeling  
+- Logical and math formulas  
+- Template design for reusability
 
 ### Python
 Here are some Python mini practice projects I did:
