@@ -1,7 +1,7 @@
 # Sharone's Data Analysis Portfolio
 
 ## About
-"Hello world!", I’m Sharone Boois, a Computer Science graduate from NUST, based in Windhoek, Namibia. I'm building my portfolio through practical SQL, Excel, and Power BI projects tied to real world data and clear documentation.
+"Hello world!", I’m Sharone Boois, a Data Analyst and Programmer. I graduated from NUST with the Bachelor of ComputerScience NQF 7, based in Windhoek, Namibia. I'm building my portfolio through practical SQL, Excel, and Power BI projects tied to real world data and clear documentation.
 
 ## Portfolio Projects
 
