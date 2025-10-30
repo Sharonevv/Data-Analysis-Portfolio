@@ -50,7 +50,26 @@ This was was my conclusion to the SQLbolt Beginner Lessons and practice exercise
 
 
 ### Excel
-*(Coming soon – building dashboards and pivot tables)*
+
+## - **Payroll Project**
+Entered employee data, computed gross pay/ net pay, applied deductions and taxes via formulas, formatted the sheet for readability, maybe used absolute vs relative references. (see [Week1_Day6](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for details)
+
+
+## - **Gradebook Project**
+Created a workbook to track student grades, used formulas to compute averages, maybe conditional formatting to highlight pass/fail, sorted data, charted grade distributions. (see [Week1_Day6](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for details)
+
+
+## - **Decision Factors Project**
+Built a decision-matrix or scenario model: maybe set up input cells, used lookup functions (e.g., VLOOKUP), built formulas to evaluate multiple criteria, arranged sliders or dropdowns for inputs. (see [Week1_Day6](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for details)
+
+
+## - **Sales Data Workbook**
+Created a sales data workbook: imported or entered raw sales data, used pivot tables to summarize by product/time/region, created charts showing trends, used filters and maybe data validation. (see [Week1_Day6](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for details)
+
+
+## - **Car Inventory Project**
+Setup an inventory spreadsheet for vehicles: columns for make/model/year/price/status, used formulas to compute totals/averages, maybe used data filters/sorting to view certain criteria, created a dashboard view. (see [Week1_Day6](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for details)
+
 
 ### Python
 Here are some Python mini practice projects I did:
