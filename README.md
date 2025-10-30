@@ -77,8 +77,9 @@ Through these projects, I practiced:
 - Data Validation & Dropdown Lists  
 - Sorting, Filtering, and Subtotals  
 - What-If Analysis & Scenario Manager  
-- Charting and Dashboard creati
-
+- Charting and Dashboard creation
+  
+---
 ## - **Payroll Project**
 Entered employee data, computed gross pay/ net pay, applied deductions and taxes via formulas, formatted the sheet for readability, used absolute vs relative references. (see [Payroll ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Payroll.PDF)for the end results screenshot)
 
@@ -86,7 +87,7 @@ Entered employee data, computed gross pay/ net pay, applied deductions and taxes
 - Arithmetic & logical formulas  
 - Absolute vs relative references  
 - Cell formatting and data validation  
-
+---
 
 ## - **Gradebook Project**
 Created a workbook to track student grades, used formulas to compute averages, conditional formatting to highlight pass/fail, sorted data, charted grade distributions. (see [Gradebook 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/GradeBook%20(1)(2).PDF) and [Second Gradebook Results](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/GradeBook%20(1)(1).PDF) for the end results screenshot)
@@ -96,7 +97,7 @@ Created a workbook to track student grades, used formulas to compute averages, c
 - Conditional formatting rules  
 - Sorting, filtering, and chart creation  
 
-
+---
 ## - **Decision Factors Project**
 Built a decision-matrix or scenario model: set up input cells, used lookup functions (e.g., VLOOKUP), built formulas to evaluate multiple criteria, arranged sliders or dropdowns for inputs. (see [Decision Factors](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for the end results screenshot)
 
@@ -104,7 +105,7 @@ Built a decision-matrix or scenario model: set up input cells, used lookup funct
 - VLOOKUP, HLOOKUP, and IF formulas  
 - Weighted scoring logic  
 - Scenario analysis and what-if modeling 
-
+---
 
 ## - **Sales Data Workbook**
 Created a sales data workbook: imported or entered raw sales data, used pivot tables to summarize by product/time/region, created charts showing trends, used filters and data validation. (see [Sales Data](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for the end results screenshot)
@@ -112,8 +113,9 @@ Created a sales data workbook: imported or entered raw sales data, used pivot ta
 **Skills Practiced:**  
 - Pivot Tables & Pivot Charts  
 - Sorting and filtering data  
-- Dynamic reporting & charting  
-
+- Dynamic reporting & charting
+  
+---
 
 ## - **Car Inventory Project**
 Setup an inventory spreadsheet for vehicles: columns for make/model/year/price/status, used formulas to compute totals/averages, used data filters/sorting to view certain criteria, cleaned data and created a dashboard view. (see [Car Inventory SS 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1)(1).PDF) and [Second Screenshot ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF)for the end results screenshot)
@@ -123,6 +125,7 @@ Setup an inventory spreadsheet for vehicles: columns for make/model/year/price/s
 - SUMIF, COUNTIF, and AVERAGEIF functions 
 - Data filters and dashboard design  
 
+---
 
 ### - **Problem-Solving Projects**  
 Developed reusable Excel templates for common business problems, including ROI, break-even, and cost analysis.  
@@ -167,6 +170,7 @@ Each project demonstrates core Python concepts — from user input and loops to 
 
 *All projects were created for learning, practice, and demonstration of Python fundamentals.*
 
+---
 
 ## **Weather Bot**  
 Weather Bot is a simple interactive Python program that asks the user about the current weather and provides clothing or accessory recommendations based on the input.  
@@ -178,7 +182,9 @@ It handles multiple weather conditions and combinations (e.g., “sunny and wind
 - Logical operators (`and`) for combined conditions  
 - String membership checks using `'in'`  
 - Case-insensitive input handling with `.lower()`  
-- Simple interactive console program design  
+- Simple interactive console program design
+  
+---
 
 ## **Mood Analyser & Tracker**  
 A program that tracks and reflects on user moods over time. Performs basic sentiment analysis, counts positive and negative words, and offers positive reframing for negative emotions. Provides feedback and encouragement based on mood trends.  
@@ -192,8 +198,6 @@ A program that tracks and reflects on user moods over time. Performs basic senti
 - `while` loops to continue until the user exits  
 - Basic progress tracking and user feedback  
 
-📸 *Screenshots:* [`/screenshots/mood-analyser`](screenshots/mood-analyser)
-
 ---
 
 ## **Notes App**
@@ -205,7 +209,8 @@ A notes management application that lets users add, view, remove, and replace no
 - `while` loop to keep the app running  
 - List operations (`append`, `pop`, indexing)  
 - Enumerating lists to display numbered items  
-- Simple error handling for invalid input  
+- Simple error handling for invalid input  ---
+  
 ## **Number Guessing Game**  
 A game where the user guesses a secret number between 1 and 10. Provides feedback on guesses (too high / too low) and tracks the number of attempts.  
 
@@ -216,6 +221,7 @@ A game where the user guesses a secret number between 1 and 10. Provides feedbac
 - Counters to track attempts  
 - Basic game logic and user feedback  
 
+---
 
 ## **Even or Odd Checker**
 Checks if a number entered by the user is even or odd and repeats this process as long as the user wants to continue.  
@@ -227,7 +233,6 @@ Checks if a number entered by the user is even or odd and repeats this process a
 - Modulo operator `%` for even/odd determination  
 - String normalization with `.lower()`  
 - Clean output formatting with `print()`  
-
 
 
 ### Power BI
