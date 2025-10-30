@@ -133,12 +133,103 @@ Included pre-set formulas and guides for user inputs. (see [Shopping List 1](htt
 - Logical and math formulas  
 - Template design for reusability
 
-### Python
-## Here are some Python mini practice projects I did:
+### Python Projects 
 
-**The Weather bot**
-- [Weather bot](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Python%20Minis/Weather_bot.py) It asks the user for the weather and recommends appropriate clothing
-- 
+##  Summary
+This repository contains all my completed Python projects.  
+Each project demonstrates core Python concepts — from user input and loops to conditionals, lists, dictionaries, and simple logic programs.  
+Screenshots or `.py` files of my completed work are stored in the `screenshots/` folder.
+
+**Core Skills Practiced**
+- Collecting and validating user input  
+- Conditional logic with `if`, `elif`, `else`  
+- Looping with `for` and `while`  
+- Lists, dictionaries, and basic data structures  
+- String manipulation and formatting  
+- Counters and simple progress tracking  
+- Basic program design and user interaction  
+
+**Python Concepts Demonstrated**
+- **Input / Output:** `input()`, `print()`  
+- **Conditionals:** `if`, `elif`, `else`, logical operators (`and`, `or`)  
+- **Loops:** `for` loops, `while` loops  
+- **Data Structures:** `list`, `dict`, enumeration  
+- **String Operations:** `.lower()`, `.strip()`, `.replace()`, punctuation removal  
+- **Arithmetic & Modulo:** basic math operations, `%` operator  
+- **Error Handling & Validation:** simple checks for valid input  
+
+**Project Features**
+- Interactive console applications  
+- Feedback and encouragement in Mood Analyser & Tracker  
+- Multi-category management in Notes App  
+- Basic game mechanics in Number Guessing Game  
+- Conditional decision logic in Weather Bot  
+- Continuous user engagement with loops  
+
+*All projects were created for learning, practice, and demonstration of Python fundamentals.*
+
+
+## **Weather Bot**  
+Weather Bot is a simple interactive Python program that asks the user about the current weather and provides clothing or accessory recommendations based on the input.  
+It handles multiple weather conditions and combinations (e.g., “sunny and windy”), giving relevant advice for each scenario.  
+
+**Skills Practiced:**  
+- Collecting user input with `input()`  
+- Conditional logic with `if`, `elif`, `else`  
+- Logical operators (`and`) for combined conditions  
+- String membership checks using `'in'`  
+- Case-insensitive input handling with `.lower()`  
+- Simple interactive console program design  
+
+## **Mood Analyser & Tracker**  
+A program that tracks and reflects on user moods over time. Performs basic sentiment analysis, counts positive and negative words, and offers positive reframing for negative emotions. Provides feedback and encouragement based on mood trends.  
+
+**Skills Practiced:**  
+- User input collection with `input()`  
+- String manipulation and punctuation removal  
+- Lists and dictionaries to store words and replacements  
+- `for` loops to iterate over words  
+- `if / elif / else` statements for sentiment analysis  
+- `while` loops to continue until the user exits  
+- Basic progress tracking and user feedback  
+
+📸 *Screenshots:* [`/screenshots/mood-analyser`](screenshots/mood-analyser)
+
+---
+
+## **Notes App**
+A notes management application that lets users add, view, remove, and replace notes across multiple categories (work, personal, ideas).  
+
+**Skills Practiced:**  
+- User input handling  
+- `if / elif / else` statements for action selection  
+- `while` loop to keep the app running  
+- List operations (`append`, `pop`, indexing)  
+- Enumerating lists to display numbered items  
+- Simple error handling for invalid input  
+## **Number Guessing Game**  
+A game where the user guesses a secret number between 1 and 10. Provides feedback on guesses (too high / too low) and tracks the number of attempts.  
+
+**Skills Practiced:**  
+- `input()` for interactive guessing  
+- `if / elif / else` statements for logic  
+- `while` loop for repeated guessing  
+- Counters to track attempts  
+- Basic game logic and user feedback  
+
+
+## **Even or Odd Checker**
+Checks if a number entered by the user is even or odd and repeats this process as long as the user wants to continue.  
+
+**Skills Practiced:**  
+- User input collection  
+- `if / else` conditional statements  
+- `while` loop for repeated checks  
+- Modulo operator `%` for even/odd determination  
+- String normalization with `.lower()`  
+- Clean output formatting with `print()`  
+
+
 
 ### Power BI
 *(Coming later in the learning plan)*
