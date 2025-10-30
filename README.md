@@ -136,7 +136,7 @@ Included pre-set formulas and guides for user inputs. (see [Shopping List 1](htt
 ### Python Projects 
 
 ##  Summary
-This repository contains all my completed Python projects.  
+This contains all my completed Python projects.  
 Each project demonstrates core Python concepts — from user input and loops to conditionals, lists, dictionaries, and simple logic programs.  
 Screenshots or `.py` files of my completed work are stored in the `screenshots/` folder.
 
