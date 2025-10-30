@@ -43,6 +43,7 @@ I learned about SQL’s execution order, learned how to safely update and delete
 This was was my conclusion to the SQLbolt Beginner Lessons and practice exercises I learned how to Create tables, Altering within tables and Dropping within tables in the database. (see [Week1_Day6](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for details)
 
 
+## - **Week 2**
 
 ### Files
 - All of [week1](https://github.com/Sharonevv/Data-Analysis-Portfolio/tree/main/week1) sample queries from practice can be found here as well as week 1 [notes]( https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/notes.md ) which shows all table content of the day by day activity that I did and what I learned everyday.  
