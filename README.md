@@ -6,13 +6,13 @@
 ## Portfolio Projects
 
 ### SQL
-- **Week 1–Day 1**: Basic SELECT queries — retrieving film titles, directors, etc.  
+- **Week 1–Day 1**: Basic `SELECT` queries — retrieving film titles, directors, etc.  
   
-- **Week 1–Day 2**: Sorting, filtering, and basic joins (INNER JOIN).
+- **Week 1–Day 2**: Sorting, filtering, and basic joins (`INNER JOIN`).
   
-- **Week 1–Day 3**: OUTER JOINs, NULL logic, and expressions.
+- **Week 1–Day 3**: `OUTER JOINs`, `NULL` logic, and expressions.
 
-- **Week 1–Day 4**: SQL aggregate functions (MAX, AVG, SUM, and COUNT) and the GROUP BY and HAVING clause. 
+- **Week 1–Day 4**: SQL aggregate functions `(MAX, AVG, SUM, and COUNT)` and the `GROUP BY` and `HAVING` clause. 
 
 - **Week 1–Day 5**: Order of Execution, Inserting Rows, Updating Rows, Deleting Rows
 
@@ -20,7 +20,7 @@
 
 
 ## - **Week 1-Day 1**
-I learned about and practiced The SELECT statement, WHERE clause, AND OR Logical operators and the LIKE operator.
+I learned about and practiced The `SELECT` statement, `WHERE` clause, `AND` `OR` Logical operators and the LIKE operator.
 (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
 
 ## - **Week 1–Day 2**
