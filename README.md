@@ -138,7 +138,6 @@ Included pre-set formulas and guides for user inputs. (see [Shopping List 1](htt
 ##  Summary
 This contains all my completed Python projects.  
 Each project demonstrates core Python concepts — from user input and loops to conditionals, lists, dictionaries, and simple logic programs.  
-Screenshots or `.py` files of my completed work are stored in the `screenshots/` folder.
 
 **Core Skills Practiced**
 - Collecting and validating user input  
