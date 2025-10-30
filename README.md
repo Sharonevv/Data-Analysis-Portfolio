@@ -56,7 +56,7 @@ Entered employee data, computed gross pay/ net pay, applied deductions and taxes
 
 
 ## - **Gradebook Project**
-Created a workbook to track student grades, used formulas to compute averages, maybe conditional formatting to highlight pass/fail, sorted data, charted grade distributions. (see [Gradebook](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for the end results screenshot)
+Created a workbook to track student grades, used formulas to compute averages, maybe conditional formatting to highlight pass/fail, sorted data, charted grade distributions. (see [Gradebook](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/GradeBook%20(1)(2).PDF) and [Second Gradebook Results](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/GradeBook%20(1)(1).PDF) for the end results screenshot)
 
 
 ## - **Decision Factors Project**
