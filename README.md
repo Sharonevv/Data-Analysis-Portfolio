@@ -56,7 +56,7 @@ Entered employee data, computed gross pay/ net pay, applied deductions and taxes
 
 
 ## - **Gradebook Project**
-Created a workbook to track student grades, used formulas to compute averages, conditional formatting to highlight pass/fail, sorted data, charted grade distributions. (see [Gradebook](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/GradeBook%20(1)(2).PDF) and [Second Gradebook Results](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/GradeBook%20(1)(1).PDF) for the end results screenshot)
+Created a workbook to track student grades, used formulas to compute averages, conditional formatting to highlight pass/fail, sorted data, charted grade distributions. (see [Gradebook 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/GradeBook%20(1)(2).PDF) and [Second Gradebook Results](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/GradeBook%20(1)(1).PDF) for the end results screenshot)
 
 
 ## - **Decision Factors Project**
@@ -68,7 +68,7 @@ Created a sales data workbook: imported or entered raw sales data, used pivot ta
 
 
 ## - **Car Inventory Project**
-Setup an inventory spreadsheet for vehicles: columns for make/model/year/price/status, used formulas to compute totals/averages, used data filters/sorting to view certain criteria, cleaned data and created a dashboard view. (see [Car Inventory](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for the end results screenshot)
+Setup an inventory spreadsheet for vehicles: columns for make/model/year/price/status, used formulas to compute totals/averages, used data filters/sorting to view certain criteria, cleaned data and created a dashboard view. (see [Car Inventory SS 1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1)(1).PDF) and [Second Screenshot ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Car.Inventory%20(1).PDF)for the end results screenshot)
 
 
 ### Python
