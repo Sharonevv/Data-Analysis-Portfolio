@@ -5,7 +5,7 @@
 
 ## Portfolio Projects
 
-### SQL
+## SQL
 - **Week 1–Day 1**: Basic `SELECT` queries — retrieving film titles, directors, etc.  
   
 - **Day 2**: Sorting, filtering, and basic joins (`INNER JOIN`).
@@ -20,8 +20,8 @@
 
 
 ## **Week 1-Day 1: SQL SELECT Queries & Data Filtering**
-Practiced querying structured datasets using SQL to extract and analyze relevant information. I Applied 'SELECT' statements, logical operators ('AND', 'OR'), 'WHERE' clauses, 
-and pattern matching ('LIKE') to filter and retrieve data based on specific
+Practiced querying structured datasets using SQL to extract and analyze relevant information. I Applied `SELECT` statements, logical operators (`AND`, `OR`), `WHERE` clauses, 
+and pattern matching (`LIKE`) to filter and retrieve data based on specific
 conditions. This exercise demonstrates the ability to: identify and extract precise data points from larger datasets apply logical constraints to support data driven decision-making map relationships and patterns within structured data for insights. (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
 
 ## **Day 2: Data Filtering, Sorting, and Joins Practice**
