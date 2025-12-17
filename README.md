@@ -23,9 +23,8 @@
 I learned about and practiced The `SELECT` statement, `WHERE` clause, `AND` `OR` Logical operators and the LIKE operator.
 (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
 
-## - **Week 1–Day 2**
-I learned about and practiced Sorting, filtering, and basic joins (the INNER JOIN) on real world data. 
-  (see [Week1 Day2](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day2.sql) for details)
+## - **Week 1–Day 2: Data Filtering, Sorting, and Joins Practice**
+I worked on querying structured datasets using SQL to extract actionable insights. Applied filtering and sorting techniques to organize data and identify meaningful patterns. Explored multi-table analysis through INNER JOINs to combine datasets and analyze relationships, simulating real-world process mapping and data-driven decision-making.(see [Week1 Day2](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day2.sql) for details)
 
 ## - **Week 1–Day 3**
 I learned and practiced OUTER JOINs, NULL logic, and expressions on real world data. 
