@@ -20,11 +20,12 @@
 
 
 ## **Week 1-Day 1: SQL SELECT Queries & Data Filtering**
-Practiced querying structured datasets using SQL to extract and analyze relevant information. I Applied `SELECT` statements, logical operators (`AND`, `OR`), `WHERE` clauses, 
-and pattern matching (`LIKE`) to filter and retrieve data based on specific
-conditions. This exercise demonstrates the ability to: identify and extract precise data points from larger datasets apply logical constraints to support data driven decision-making map relationships and patterns within structured data for insights. (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
+
+I worked on querying structured movie data using SQL to extract and analyze relevant information. I Applied `SELECT` statements, logical operators (`AND`, `OR`), `WHERE` clauses, 
+and pattern matching (`LIKE`) to filter and to retrieve specific movie information such as titles, directors, release years, and franchises. This exercise demonstrates the ability to: identify and extract precise data points from larger datasets apply logical constraints to support data driven decision-making map relationships and patterns within structured data for insights. (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
 
 ## **Day 2: Data Filtering, Sorting, and Joins Practice**
+
 I worked on querying structured datasets using SQL to extract actionable insights. Applied filtering and sorting techniques to organize data and identify meaningful patterns. Explored multi-table analysis through INNER JOINs to combine datasets and analyze relationships, simulating real-world process mapping and data-driven decision-making.(see [Week1 Day2](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day2.sql) for details)
 
 ## - **Week 1–Day 3**
