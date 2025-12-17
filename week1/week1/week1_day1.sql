@@ -1,5 +1,12 @@
 -- Week 1 - Day 1 SQLBolt Practice
--- By me: Sharone
+SQL SELECT Queries & Data Filtering
+Practiced querying structured datasets using SQL to extract and analyze relevant information. 
+I Applied SELECT statements, logical operators (AND, OR), WHERE clauses, 
+and pattern matching (LIKE) to filter and retrieve data 
+based on specific conditions. This exercise demonstrates the ability to:
+identify and extract precise data points from larger datasets
+apply logical constraints to support data-driven decision-making
+map relationships and patterns within structured data for insights
 
 -- Lesson 1 SELECT queries 101 (https://sqlbolt.com/lesson/select_queries_introduction)
 -- Exercise 1, Find the title of each film
