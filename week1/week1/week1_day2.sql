@@ -1,4 +1,10 @@
--- Week 1 - Day 1 SQLBolt Practice
+-- Week 1 - Day 2 SQLBolt Practice
+Data Filtering, Sorting, and Joins Practice
+I worked on querying structured datasets using SQL 
+to extract actionable insights. Applied filtering and sorting techniques 
+to organize data and identify meaningful patterns. 
+Explored multi-table analysis through INNER JOINs to combine datasets 
+and analyze relationships, simulating real-world process mapping and data-driven decision-making.
 
 
 --Lesson 4 Exercise 1 (https://sqlbolt.com/lesson/filtering_sorting_query_results
@@ -47,7 +53,6 @@ SELECT city, population FROM north_american_cities
 --List the third and fourth largest cities (by population) in the United States and their population
 SELECT city, population FROM north_american_cities 
   WHERE country = 'United States' ORDER BY population DESC LIMIT 2 OFFSET 2;
-
 
 
 
