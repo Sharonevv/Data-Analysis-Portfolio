@@ -1,6 +1,5 @@
 # Sharone's Data Analysis Portfolio
 
----
 
 ## About
 Hi, I’m Sharone! I graduated from NUST with a Bachelor of Computer Science, majoring in Software Development, and I’m based in Windhoek, Namibia. I’m building my portfolio through practical projects in SQL and Excel, working with real-world datasets and providing clear documentation to show my analytical process.
@@ -63,7 +62,7 @@ Analyzed structured organizational and sales data using SQL to understand relati
 
 ## **Day 4: Workforce & Organizational Metrics Analysis**
 
-Analyzed employee data using SQL aggregate functions to summarise workforce metrics and identify patterns across roles and buildings. Applied MAX, AVG, SUM, and COUNT alongside GROUP BY and HAVING clauses to evaluate employee tenure, role distribution, and organisational capacity.
+I analyzed employee data using SQL aggregate functions to summarise workforce metrics and identify patterns across roles and buildings. Applied MAX, AVG, SUM, and COUNT alongside GROUP BY and HAVING clauses to evaluate employee tenure, role distribution, and organisational capacity.
 (see [Week1 Day4](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day4.sql) for details)
 
 ---
