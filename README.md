@@ -1,11 +1,15 @@
 # Sharone's Data Analysis Portfolio
 
+---
+
 ## About
 Hi, I’m Sharone! I graduated from NUST with a Bachelor of Computer Science, majoring in Software Development, and I’m based in Windhoek, Namibia. I’m building my portfolio through practical projects in SQL and Excel, working with real-world datasets and providing clear documentation to show my analytical process.
 
 During these projects, I have honed my ability to extract insights, identify patterns, and turn raw data into actionable information. I enjoy mapping processes, validating data, and structuring information in ways that support informed decision-making.
 
-In my free time, I explore new tools and techniques to strengthen my analytical skills and problem-solving abilities. I am motivated by the challenge of learning, improving, and applying data-driven thinking to real-world problems.
+In my free time, I explore new tools and techniques to strengthen my analytical skills and problem-solving abilities such as Python. I am motivated by the challenge of learning, improving, and applying data-driven thinking to real-world problems.
+
+---
 
 ## Portfolio Projects
 
@@ -36,36 +40,44 @@ Each project highlights practical analytical thinking, process mapping, and data
 
 - **Week 1- Day6**: Creating tables, Altering tables and Dropping tables
 
+---
 
 ## **Day 1: SQL SELECT Queries & Data Filtering**
 
 I worked on querying structured movie data using SQL to extract and analyze relevant information. I Applied `SELECT` statements, logical operators (`AND`, `OR`), `WHERE` clauses, 
 and pattern matching (`LIKE`) to filter and to retrieve specific movie information such as titles, directors, release years, and franchises. This exercise demonstrates the ability to: identify and extract precise data points from larger datasets apply logical constraints to support data driven decision-making map relationships and patterns within structured data for insights. (see [Week1 Day1](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
 
+---
+
 ## **Day 2: Data Filtering, Sorting, and Joins Practice**
 
 Worked on querying structured datasets using SQL to extract actionable insights. Applied filtering and sorting techniques to organize data and identify meaningful patterns. Explored multi-table analysis through INNER JOINs to combine datasets and analyze relationships, simulating real-world process mapping and data-driven decision-making.(see [Week1 Day2](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day2.sql) for details)
 
+---
+
 ## **Day 3: Organizational Data Analysis Using Joins, NULL Logic, and Calculated Metrics**
 
 Analyzed structured organizational and sales data using SQL to understand relationships, data gaps, and performance metrics. Applied OUTER JOINs to map entities across datasets, used NULL logic to identify missing assignments and inefficiencies, and created calculated fields to derive meaningful performance indicators.(see [Week1 Day3](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day3.sql) for details) 
+
+---
 
 ## **Day 4: Workforce & Organizational Metrics Analysis**
 
 Analyzed employee data using SQL aggregate functions to summarise workforce metrics and identify patterns across roles and buildings. Applied MAX, AVG, SUM, and COUNT alongside GROUP BY and HAVING clauses to evaluate employee tenure, role distribution, and organisational capacity.
 (see [Week1 Day4](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day4.sql) for details)
 
+---
+
 ## - **Week 1 Day 5**
 I learned about SQL’s execution order, learned how to safely update and delete data, and practiced creating tables with proper constraints. These lessons showed me how to manipulate and structure data like a real-world analyst.
 (see [Week1 Day5](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day5.sql) for details)
 
+---
+
 ## - **Week1 Day 6**
 This was was my conclusion to the SQLbolt Beginner Lessons and practice exercises I learned how to Create tables, Altering within tables and Dropping within tables in the database. (see [Week1_Day6](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for details)
 
-
-### Files
-- All of [week1](https://github.com/Sharonevv/Data-Analysis-Portfolio/tree/main/week1) sample queries from practice can be found here as well as week 1 [notes]( https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/notes.md ) which shows all table content of the day by day activity that I did and what I learned everyday.  
-
+---
 
 ### Excel
 
@@ -98,13 +110,15 @@ Through these projects, I practiced:
 - Charting and Dashboard creation
   
 ---
+
 ## - **Payroll Project**
 Entered employee data, computed gross pay/ net pay, applied deductions and taxes via formulas, formatted the sheet for readability, used absolute vs relative references. (see [Payroll ](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/Excel/Payroll.PDF)for the end results screenshot)
 
 **Skills Practiced:**  
 - Arithmetic & logical formulas  
 - Absolute vs relative references  
-- Cell formatting and data validation  
+- Cell formatting and data validation
+  
 ---
 
 ## - **Gradebook Project**
@@ -116,13 +130,15 @@ Created a workbook to track student grades, used formulas to compute averages, c
 - Sorting, filtering, and chart creation  
 
 ---
+
 ## - **Decision Factors Project**
 Built a decision-matrix or scenario model: set up input cells, used lookup functions (e.g., VLOOKUP), built formulas to evaluate multiple criteria, arranged sliders or dropdowns for inputs. (see [Decision Factors](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for the end results screenshot)
 
 **Skills Practiced:**  
 - VLOOKUP, HLOOKUP, and IF formulas  
 - Weighted scoring logic  
-- Scenario analysis and what-if modeling 
+- Scenario analysis and what-if modeling
+  
 ---
 
 ## - **Sales Data Workbook**
@@ -153,6 +169,8 @@ Included pre-set formulas and guides for user inputs. (see [Shopping List 1](htt
 - Financial modeling  
 - Logical and math formulas  
 - Template design for reusability
+
+---
 
 ### Python Projects 
 
