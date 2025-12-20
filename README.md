@@ -176,7 +176,7 @@ Included pre-set formulas and guides for user inputs. (see [Shopping List 1](htt
 
 ##  Summary
 This contains all my completed Python projects.  
-Each project demonstrates core Python concepts — from user input and loops to conditionals, lists, dictionaries, and simple logic programs.  
+Each project demonstrates core Python concepts from user input and loops to conditionals, lists, dictionaries, and simple logic programs.  
 
 **Core Skills Practiced**
 - Collecting and validating user input  
