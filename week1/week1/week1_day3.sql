@@ -1,4 +1,8 @@
 -- Week 1 - Day 3 SQLBolt Practice
+Analyzed structured organizational and sales data using SQL to understand relationships, 
+data gaps, and performance metrics. Applied OUTER JOINs to map entities across datasets,
+used NULL logic to identify missing assignments and inefficiencies, and created 
+calculated fields to derive meaningful performance indicators.
 
 -- Lesson 7 OUTER JOINs (https://sqlbolt.com/lesson/select_queries_with_outer_joins)
 -- Exercise 1, Find the list of all buildings that have employees 
