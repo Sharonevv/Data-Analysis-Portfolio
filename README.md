@@ -2,7 +2,9 @@
 
 ## About
 Hi, I’m Sharone! I graduated from NUST with a Bachelor of Computer Science, majoring in Software Development, and I’m based in Windhoek, Namibia. I’m building my portfolio through practical projects in SQL and Excel, working with real-world datasets and providing clear documentation to show my analytical process.
+
 During these projects, I have honed my ability to extract insights, identify patterns, and turn raw data into actionable information. I enjoy mapping processes, validating data, and structuring information in ways that support informed decision-making.
+
 In my free time, I explore new tools and techniques to strengthen my analytical skills and problem-solving abilities. I am motivated by the challenge of learning, improving, and applying data-driven thinking to real-world problems.
 
 ## Portfolio Projects
