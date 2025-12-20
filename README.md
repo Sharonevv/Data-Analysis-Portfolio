@@ -6,6 +6,20 @@
 ## Portfolio Projects
 
 ## SQL
+
+This portfolio demonstrates my ability to query, analyze, and manipulate structured data using SQL. Across these projects, I showcase skills in:
+
+1. Extracting insights through filtering, sorting, and aggregations
+   
+2. Mapping relationships and identifying gaps with JOINs and NULL logic
+   
+3. Ensuring data integrity through controlled inserts, updates, and deletions
+   
+4. Structuring and managing database tables for accurate, analysis-ready datasets
+   
+Each project highlights practical analytical thinking, process mapping, and data-driven decision making, reflecting the skills expected of a Data Analyst.
+
+
 - **Week 1–Day 1**: Basic `SELECT` queries — retrieving film titles, directors, etc.  
   
 - **Day 2**: Sorting, filtering, and basic joins (`INNER JOIN`).
