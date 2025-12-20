@@ -26,14 +26,16 @@ and pattern matching (`LIKE`) to filter and to retrieve specific movie informati
 
 ## **Day 2: Data Filtering, Sorting, and Joins Practice**
 
-I worked on querying structured datasets using SQL to extract actionable insights. Applied filtering and sorting techniques to organize data and identify meaningful patterns. Explored multi-table analysis through INNER JOINs to combine datasets and analyze relationships, simulating real-world process mapping and data-driven decision-making.(see [Week1 Day2](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day2.sql) for details)
+Worked on querying structured datasets using SQL to extract actionable insights. Applied filtering and sorting techniques to organize data and identify meaningful patterns. Explored multi-table analysis through INNER JOINs to combine datasets and analyze relationships, simulating real-world process mapping and data-driven decision-making.(see [Week1 Day2](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day2.sql) for details)
 
-## - **Day 3:Organizational Data Analysis Using Joins, NULL Logic, and Calculated Metrics**
+## **Day 3: Organizational Data Analysis Using Joins, NULL Logic, and Calculated Metrics**
+
 Analyzed structured organizational and sales data using SQL to understand relationships, data gaps, and performance metrics. Applied OUTER JOINs to map entities across datasets, used NULL logic to identify missing assignments and inefficiencies, and created calculated fields to derive meaningful performance indicators.(see [Week1 Day3](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day3.sql) for details) 
 
-## - **Week 1-Day 4**
-I learned and practiced using SQL aggregate functions like MAX, AVG, SUM, and COUNT to summarize data. I also applied GROUP BY and HAVING with these functions to analyze roles, buildings, and employee categories more effectively.
- (see [Week1 Day4](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day4.sql) for details)
+## **Day 4: Workforce & Organizational Metrics Analysis**
+
+Analyzed employee data using SQL aggregate functions to summarise workforce metrics and identify patterns across roles and buildings. Applied MAX, AVG, SUM, and COUNT alongside GROUP BY and HAVING clauses to evaluate employee tenure, role distribution, and organisational capacity.
+(see [Week1 Day4](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day4.sql) for details)
 
 ## - **Week 1 Day 5**
 I learned about SQL’s execution order, learned how to safely update and delete data, and practiced creating tables with proper constraints. These lessons showed me how to manipulate and structure data like a real-world analyst.
@@ -42,8 +44,6 @@ I learned about SQL’s execution order, learned how to safely update and delete
 ## - **Week1 Day 6**
 This was was my conclusion to the SQLbolt Beginner Lessons and practice exercises I learned how to Create tables, Altering within tables and Dropping within tables in the database. (see [Week1_Day6](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_%20day6.sql) for details)
 
-
-## - **Week 2**
 
 ### Files
 - All of [week1](https://github.com/Sharonevv/Data-Analysis-Portfolio/tree/main/week1) sample queries from practice can be found here as well as week 1 [notes]( https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/notes.md ) which shows all table content of the day by day activity that I did and what I learned everyday.  
