@@ -28,9 +28,8 @@ and pattern matching (`LIKE`) to filter and to retrieve specific movie informati
 
 I worked on querying structured datasets using SQL to extract actionable insights. Applied filtering and sorting techniques to organize data and identify meaningful patterns. Explored multi-table analysis through INNER JOINs to combine datasets and analyze relationships, simulating real-world process mapping and data-driven decision-making.(see [Week1 Day2](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day2.sql) for details)
 
-## - **Week 1–Day 3**
-I learned and practiced OUTER JOINs, NULL logic, and expressions on real world data. 
-(see [Week1 Day3](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day3.sql) for details) 
+## - **Day 3:Organizational Data Analysis Using Joins, NULL Logic, and Calculated Metrics**
+Analyzed structured organizational and sales data using SQL to understand relationships, data gaps, and performance metrics. Applied OUTER JOINs to map entities across datasets, used NULL logic to identify missing assignments and inefficiencies, and created calculated fields to derive meaningful performance indicators.(see [Week1 Day3](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day3.sql) for details) 
 
 ## - **Week 1-Day 4**
 I learned and practiced using SQL aggregate functions like MAX, AVG, SUM, and COUNT to summarize data. I also applied GROUP BY and HAVING with these functions to analyze roles, buildings, and employee categories more effectively.
