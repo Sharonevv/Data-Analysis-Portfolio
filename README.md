@@ -2,11 +2,21 @@
 
 
 ## About
-Hi, I’m Sharone! I graduated from NUST with a Bachelor of Computer Science, majoring in Software Development, and I’m based in Windhoek, Namibia. I’m building my portfolio through practical projects in SQL and Excel, working with real-world datasets and providing clear documentation to show my analytical process.
+Hi, I’m Sharone, I am a Computer Science graduate focused on data analytics, with hands-on experience using SQL Server, Excel, and Power BI to clean, analyze, and visualize data.
 
-During these projects, I have honed my ability to extract insights, identify patterns, and turn raw data into actionable information. I enjoy mapping processes, validating data, and structuring information in ways that support informed decision-making.
+My portfolio demonstrates practical work across data cleaning, exploratory analysis, KPI development, reporting, dashboard creation, and data visualization. I focus on turning raw datasets into structured, analysis-ready information and presenting findings in a way that supports business decision-making.
 
-In my free time, I explore new tools and techniques to strengthen my analytical skills and problem-solving abilities such as Python. I am motivated by the challenge of learning, improving, and applying data-driven thinking to real-world problems.
+In my free time, I explore new tools and techniques to strengthen my analytical skills and problem-solving abilities. I am motivated by the challenge of learning, improving, and applying data-driven thinking to real-world problems.
+
+---
+
+## Technical Skills
+- SQL: SQL Server, MySQL, data cleaning, CTEs, window functions, joins, aggregations
+- Excel: Data cleaning, PivotTables, PivotCharts, SUMIFS, COUNTIFS, VLOOKUP, XLOOKUP, conditional logic, dashboards
+- Power BI: Power Query, DAX, data modeling, dashboards, data visualization
+- Python: Data analysis and programming fundamentals
+
+My portfolio projects are organized below by technology and demonstrate the progression from data preparation and analysis to reporting and business intelligence.
 
 ---
 
