@@ -8,6 +8,8 @@ My portfolio demonstrates practical work across data cleaning, exploratory analy
 
 In my free time, I explore new tools and techniques to strengthen my analytical skills and problem-solving abilities. I am motivated by the challenge of learning, improving, and applying data-driven thinking to real-world problems.
 
+**My Email**[Sharoneboois40@gmail.com]
+
 ---
 
 ## Technical Skills
@@ -39,12 +41,27 @@ This project demonstrates my ability to perform exploratory data analysis using 
 
 #### Loan Portfolio Analysis
 
-This project demonstrates my ability to analyze a loan portfolio using Excel by cleaning and organizing data, creating calculated KPIs, categorizing delinquency, building PivotTables and charts, and developing a dashboard to monitor loan status, principal exposure, and collection performance. (see [World Layoffs Exploratory Data Analysis](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details) 
+This project demonstrates my ability to analyze a loan portfolio using Excel by cleaning and organizing data, creating calculated KPIs, categorizing delinquency, building PivotTables and charts, and developing a dashboard to monitor loan status, principal exposure, and collection performance. (see [Loan Portfolio Analysis](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details) 
 
 #### Bike Sales Analysis
 
-This project demonstrates my ability to analyze customer and sales data using Excel by cleaning and standardizing the dataset, creating age brackets, building PivotTables, and developing visualizations to examine purchasing behavior in relation to income, gender, age, and commuting distance. (see [World Layoffs Exploratory Data Analysis](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details) 
+This project demonstrates my ability to analyze customer and sales data using Excel by cleaning and standardizing the dataset, creating age brackets, building PivotTables, and developing visualizations to examine purchasing behavior in relation to income, gender, age, and commuting distance. (see [Bike Sales Analysis](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details) 
 
+#### US Presidents Data Cleaning
+
+This project demonstrates my ability to clean and standardize a dataset in Excel by removing duplicates, correcting formatting and text inconsistencies, standardizing names, fixing spacing and character errors, validating data through filtering, assigning appropriate data types, and removing unnecessary columns. (see [US Presidents Data Cleaning](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
+
+
+---
+
+## Power BI
+
+#### Data Professionals Survey Dashboard
+
+This project demonstrates my ability to transform and analyze survey data using Power BI by cleaning and restructuring the dataset in Power Query, standardizing categorical data, creating calculated fields, and developing an interactive dashboard to explore the experiences, roles, industries, and salaries of data professionals. (see [Data Professionals Survey Dashboard](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
+
+
+---
 
 
 ## LEARNING & PRACTICE
