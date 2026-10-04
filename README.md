@@ -24,6 +24,33 @@ My portfolio projects are organized below by technology and demonstrate the prog
 
 ## SQL
 
+#### World Layoffs Data Cleaning
+
+This project demonstrates my ability to clean and prepare raw data using SQL Server by identifying and removing duplicate records, standardizing inconsistent values, handling missing data, correcting data types, and using CTEs, window functions, and joins to produce an analysis-ready dataset. (see [World Layoffs Data Cleaning](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
+
+#### World Layoffs Exploratory Data Analysis
+
+This project demonstrates my ability to perform exploratory data analysis using SQL Server by analyzing layoffs across companies, industries, countries, years, and funding stages. I used aggregations, CTEs, date-based analysis, rolling totals, window functions, and ranking to identify trends and patterns within the dataset.(see [World Layoffs Exploratory Data Analysis](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details) 
+
+
+---
+
+## EXCEL
+
+#### Loan Portfolio Analysis
+
+This project demonstrates my ability to analyze a loan portfolio using Excel by cleaning and organizing data, creating calculated KPIs, categorizing delinquency, building PivotTables and charts, and developing a dashboard to monitor loan status, principal exposure, and collection performance. (see [World Layoffs Exploratory Data Analysis](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details) 
+
+#### Bike Sales Analysis
+
+This project demonstrates my ability to analyze customer and sales data using Excel by cleaning and standardizing the dataset, creating age brackets, building PivotTables, and developing visualizations to examine purchasing behavior in relation to income, gender, age, and commuting distance. (see [World Layoffs Exploratory Data Analysis](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details) 
+
+
+
+## LEARNING & PRACTICE
+
+## SQL
+
 This portfolio demonstrates my ability to query, analyze, and manipulate structured data using SQL. Across these projects, I showcase skills in:
 
 1. Extracting insights through filtering, sorting, and aggregations
