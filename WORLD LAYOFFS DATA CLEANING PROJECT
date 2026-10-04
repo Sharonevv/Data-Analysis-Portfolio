@@ -1,0 +1,600 @@
+/*
+============================================================
+WORLD LAYOFFS DATA CLEANING PROJECT
+============================================================
+
+Database: LayoffsProject
+Tool: Microsoft SQL Server / SSMS
+
+Purpose:
+Clean and prepare the World Layoffs dataset for analysis.
+
+Cleaning steps:
+1. Inspect raw data
+2. Create staging tables
+3. Identify and remove duplicates
+4. Standardize text fields
+5. Handle NULL and blank values
+6. Populate missing industry values where possible
+7. Standardize country values
+8. Convert date values
+9. Remove unusable records
+10. Validate the cleaned dataset
+
+============================================================
+*/
+
+
+/*
+============================================================
+1. SELECT DATABASE
+============================================================
+*/
+
+USE LayoffsProject;
+GO
+
+
+/*
+============================================================
+2. INSPECT RAW DATA
+============================================================
+*/
+
+SELECT *
+FROM dbo.layoffs_raw;
+
+SELECT COUNT(*) AS total_rows
+FROM dbo.layoffs_raw;
+
+
+/*
+Check the columns and data types if needed
+*/
+
+SELECT
+    COLUMN_NAME,
+    DATA_TYPE,
+    CHARACTER_MAXIMUM_LENGTH
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE TABLE_NAME = 'layoffs_raw';
+
+
+/*
+============================================================
+3. CREATE FIRST STAGING TABLE
+============================================================
+
+The raw table is preserved.
+
+All cleaning is performed on a staging table.
+*/
+
+IF OBJECT_ID('dbo.layoffs_staging', 'U') IS NOT NULL
+    DROP TABLE dbo.layoffs_staging;
+GO
+
+SELECT *
+INTO dbo.layoffs_staging
+FROM dbo.layoffs_raw;
+GO
+
+
+/*
+Confirm staging table
+*/
+
+SELECT *
+FROM dbo.layoffs_staging;
+
+SELECT COUNT(*) AS staging_rows
+FROM dbo.layoffs_staging;
+
+
+/*
+============================================================
+4. CHECK FOR DUPLICATES
+============================================================
+
+A duplicate is identified when all relevant fields
+contain the same values.
+*/
+
+WITH duplicate_check AS
+(
+    SELECT
+        company,
+        location,
+        industry,
+        total_laid_off,
+        percentage_laid_off,
+        [date],
+        stage,
+        country,
+        funds_raised_millions,
+
+        ROW_NUMBER() OVER
+        (
+            PARTITION BY
+                company,
+                location,
+                industry,
+                total_laid_off,
+                percentage_laid_off,
+                [date],
+                stage,
+                country,
+                funds_raised_millions
+            ORDER BY
+                company
+        ) AS row_num
+
+    FROM dbo.layoffs_staging
+)
+
+SELECT *
+FROM duplicate_check
+WHERE row_num > 1;
+
+
+/*
+============================================================
+5. CREATE SECOND STAGING TABLE
+============================================================
+
+The row number allows duplicate records to be identified
+and removed safely.
+*/
+
+IF OBJECT_ID('dbo.layoffs_staging2', 'U') IS NOT NULL
+    DROP TABLE dbo.layoffs_staging2;
+GO
+
+SELECT
+    company,
+    location,
+    industry,
+    total_laid_off,
+    percentage_laid_off,
+    [date],
+    stage,
+    country,
+    funds_raised_millions,
+
+    ROW_NUMBER() OVER
+    (
+        PARTITION BY
+            company,
+            location,
+            industry,
+            total_laid_off,
+            percentage_laid_off,
+            [date],
+            stage,
+            country,
+            funds_raised_millions
+        ORDER BY
+            company
+    ) AS row_num
+
+INTO dbo.layoffs_staging2
+
+FROM dbo.layoffs_staging;
+GO
+
+
+/*
+Check duplicate rows
+*/
+
+SELECT *
+FROM dbo.layoffs_staging2
+WHERE row_num > 1;
+
+
+/*
+Count duplicate rows
+*/
+
+SELECT COUNT(*) AS duplicate_rows
+FROM dbo.layoffs_staging2
+WHERE row_num > 1;
+
+
+/*
+============================================================
+6. REMOVE DUPLICATES
+============================================================
+*/
+
+DELETE FROM dbo.layoffs_staging2
+WHERE row_num > 1;
+
+
+/*
+Confirm duplicates have been removed
+*/
+
+SELECT *
+FROM dbo.layoffs_staging2
+WHERE row_num > 1;
+
+
+/*
+============================================================
+7. CHECK INDUSTRY VALUES
+============================================================
+*/
+
+SELECT DISTINCT industry
+FROM dbo.layoffs_staging2
+ORDER BY industry;
+
+
+/*
+Check NULL and blank industry values
+*/
+
+SELECT *
+FROM dbo.layoffs_staging2
+WHERE industry IS NULL
+   OR LTRIM(RTRIM(industry)) = ''
+ORDER BY company;
+
+
+/*
+============================================================
+8. CONVERT BLANK INDUSTRY VALUES TO NULL
+============================================================
+*/
+
+UPDATE dbo.layoffs_staging2
+SET industry = NULL
+WHERE LTRIM(RTRIM(industry)) = '';
+
+
+/*
+Confirm
+*/
+
+SELECT *
+FROM dbo.layoffs_staging2
+WHERE industry IS NULL;
+
+
+/*
+============================================================
+9. POPULATE MISSING INDUSTRY VALUES
+============================================================
+
+If another record for the same company contains a valid
+industry, use that value to populate the missing value.
+*/
+
+UPDATE t1
+SET t1.industry = t2.industry
+FROM dbo.layoffs_staging2 AS t1
+INNER JOIN dbo.layoffs_staging2 AS t2
+    ON t1.company = t2.company
+WHERE t1.industry IS NULL
+  AND t2.industry IS NOT NULL;
+
+
+/*
+Check remaining missing industries
+*/
+
+SELECT *
+FROM dbo.layoffs_staging2
+WHERE industry IS NULL;
+
+
+/*
+============================================================
+10. STANDARDIZE CRYPTO INDUSTRY VALUES
+============================================================
+*/
+
+SELECT DISTINCT industry
+FROM dbo.layoffs_staging2
+ORDER BY industry;
+
+
+/*
+Standardize different versions of Crypto
+*/
+
+UPDATE dbo.layoffs_staging2
+SET industry = 'Crypto'
+WHERE industry IN
+(
+    'Crypto Currency',
+    'CryptoCurrency'
+);
+
+
+/*
+Confirm
+*/
+
+SELECT DISTINCT industry
+FROM dbo.layoffs_staging2
+ORDER BY industry;
+
+
+/*
+============================================================
+11. STANDARDIZE COMPANY NAMES
+============================================================
+
+Remove unnecessary leading/trailing spaces.
+*/
+
+UPDATE dbo.layoffs_staging2
+SET company = LTRIM(RTRIM(company));
+
+
+/*
+Confirm
+*/
+
+SELECT DISTINCT company
+FROM dbo.layoffs_staging2
+ORDER BY company;
+
+
+/*
+============================================================
+12. STANDARDIZE LOCATION VALUES
+============================================================
+*/
+
+UPDATE dbo.layoffs_staging2
+SET location = LTRIM(RTRIM(location));
+
+
+/*
+============================================================
+13. STANDARDIZE COUNTRY VALUES
+============================================================
+
+Some country values contain unnecessary punctuation,
+such as:
+
+United States
+United States.
+
+*/
+
+UPDATE dbo.layoffs_staging2
+SET country = LTRIM(RTRIM(country));
+
+
+UPDATE dbo.layoffs_staging2
+SET country = LEFT(country, LEN(country) - 1)
+WHERE RIGHT(country, 1) = '.';
+
+
+/*
+Confirm country values
+*/
+
+SELECT DISTINCT country
+FROM dbo.layoffs_staging2
+ORDER BY country;
+
+
+/*
+============================================================
+14. CHECK DATE VALUES
+============================================================
+*/
+
+SELECT [date]
+FROM dbo.layoffs_staging2;
+
+
+/*
+The original date values were imported as text.
+
+Example:
+03/11/2020
+
+Convert them to SQL Server DATE values.
+*/
+
+
+/*
+Check which values can be converted
+*/
+
+SELECT
+    [date],
+    TRY_CONVERT(date, [date], 101) AS converted_date
+FROM dbo.layoffs_staging2;
+
+
+/*
+============================================================
+15. CONVERT DATE COLUMN
+============================================================
+*/
+
+ALTER TABLE dbo.layoffs_staging2
+ALTER COLUMN [date] DATE;
+GO
+
+
+/*
+Confirm date values
+*/
+
+SELECT [date]
+FROM dbo.layoffs_staging2;
+
+
+/*
+============================================================
+16. CHECK NULL VALUES
+============================================================
+
+NULL values in these columns can be legitimate:
+
+- total_laid_off
+- percentage_laid_off
+- funds_raised_millions
+*/
+
+SELECT
+    SUM(CASE WHEN total_laid_off IS NULL THEN 1 ELSE 0 END)
+        AS null_total_laid_off,
+
+    SUM(CASE WHEN percentage_laid_off IS NULL THEN 1 ELSE 0 END)
+        AS null_percentage_laid_off,
+
+    SUM(CASE WHEN funds_raised_millions IS NULL THEN 1 ELSE 0 END)
+        AS null_funds_raised
+
+FROM dbo.layoffs_staging2;
+
+
+/*
+============================================================
+17. IDENTIFY RECORDS WITH NO LAYOFF INFORMATION
+============================================================
+
+If both total_laid_off and percentage_laid_off are NULL,
+there is no useful layoff measurement for analysis.
+*/
+
+SELECT *
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NULL
+  AND percentage_laid_off IS NULL;
+
+
+/*
+============================================================
+18. REMOVE UNUSABLE RECORDS
+============================================================
+*/
+
+DELETE FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NULL
+  AND percentage_laid_off IS NULL;
+
+
+/*
+Confirm
+*/
+
+SELECT *
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NULL
+  AND percentage_laid_off IS NULL;
+
+
+/*
+============================================================
+19. REMOVE HELPER COLUMN
+============================================================
+
+row_num was only required for duplicate detection.
+*/
+
+ALTER TABLE dbo.layoffs_staging2
+DROP COLUMN row_num;
+GO
+
+
+/*
+============================================================
+20. FINAL DATA VALIDATION
+============================================================
+*/
+
+SELECT *
+FROM dbo.layoffs_staging2;
+
+
+/*
+Final row count
+*/
+
+SELECT COUNT(*) AS cleaned_row_count
+FROM dbo.layoffs_staging2;
+
+
+/*
+Check remaining duplicates
+*/
+
+WITH duplicate_check AS
+(
+    SELECT
+        company,
+        location,
+        industry,
+        total_laid_off,
+        percentage_laid_off,
+        [date],
+        stage,
+        country,
+        funds_raised_millions,
+
+        ROW_NUMBER() OVER
+        (
+            PARTITION BY
+                company,
+                location,
+                industry,
+                total_laid_off,
+                percentage_laid_off,
+                [date],
+                stage,
+                country,
+                funds_raised_millions
+            ORDER BY company
+        ) AS row_num
+
+    FROM dbo.layoffs_staging2
+)
+
+SELECT *
+FROM duplicate_check
+WHERE row_num > 1;
+
+
+/*
+Check distinct industries
+*/
+
+SELECT DISTINCT industry
+FROM dbo.layoffs_staging2
+ORDER BY industry;
+
+
+/*
+Check distinct countries
+*/
+
+SELECT DISTINCT country
+FROM dbo.layoffs_staging2
+ORDER BY country;
+
+
+/*
+Check date range
+*/
+
+SELECT
+    MIN([date]) AS earliest_layoff_date,
+    MAX([date]) AS latest_layoff_date
+FROM dbo.layoffs_staging2;
+
+
+/*
+============================================================
+END OF DATA CLEANING PROJECT
+============================================================
+*/
