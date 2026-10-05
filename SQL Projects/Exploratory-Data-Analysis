@@ -1,0 +1,626 @@
+/*
+============================================================
+WORLD LAYOFFS EXPLORATORY DATA ANALYSIS
+============================================================
+
+Database: LayoffsProject
+Tool: Microsoft SQL Server / SSMS
+
+Purpose:
+Explore the cleaned World Layoffs dataset and identify
+patterns, trends, and significant layoffs.
+
+Analysis includes:
+1. Dataset overview
+2. Maximum layoffs
+3. Companies with 100% layoffs
+4. Companies with highest single-day layoffs
+5. Companies with highest total layoffs
+6. Industry analysis
+7. Country analysis
+8. Yearly analysis
+9. Monthly analysis
+10. Rolling totals
+11. Company rankings
+12. Top 5 companies by year
+
+============================================================
+*/
+
+
+/*
+============================================================
+1. SELECT DATABASE
+============================================================
+*/
+
+USE LayoffsProject;
+GO
+
+
+/*
+============================================================
+2. VIEW CLEANED DATA
+============================================================
+*/
+
+SELECT *
+FROM dbo.layoffs_staging2;
+
+
+/*
+============================================================
+3. DATASET OVERVIEW
+============================================================
+*/
+
+SELECT
+    COUNT(*) AS total_records,
+    COUNT(DISTINCT company) AS unique_companies,
+    COUNT(DISTINCT country) AS unique_countries,
+    COUNT(DISTINCT industry) AS unique_industries
+FROM dbo.layoffs_staging2;
+
+
+/*
+============================================================
+4. DATE RANGE
+============================================================
+*/
+
+SELECT
+    MIN([date]) AS earliest_layoff_date,
+    MAX([date]) AS latest_layoff_date
+FROM dbo.layoffs_staging2;
+
+
+/*
+============================================================
+5. MAXIMUM LAYOFFS
+============================================================
+
+Find the largest number of employees laid off in a single
+record and the largest percentage laid off.
+*/
+
+SELECT
+    MAX(total_laid_off) AS maximum_total_laid_off,
+    MAX(percentage_laid_off) AS maximum_percentage_laid_off
+FROM dbo.layoffs_staging2;
+
+
+/*
+============================================================
+6. COMPANIES THAT LAID OFF 100% OF THEIR WORKFORCE
+============================================================
+*/
+
+SELECT
+    company,
+    location,
+    industry,
+    total_laid_off,
+    percentage_laid_off,
+    [date],
+    stage,
+    country
+FROM dbo.layoffs_staging2
+WHERE percentage_laid_off = 1
+ORDER BY total_laid_off DESC;
+
+
+/*
+============================================================
+7. COMPANIES WITH THE HIGHEST SINGLE-DAY LAYOFFS
+============================================================
+*/
+
+SELECT TOP 10
+    company,
+    location,
+    industry,
+    total_laid_off,
+    percentage_laid_off,
+    [date],
+    country
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+ORDER BY total_laid_off DESC;
+
+
+/*
+============================================================
+8. COMPANIES WITH THE HIGHEST TOTAL LAYOFFS
+============================================================
+
+A company can appear multiple times in the dataset.
+Therefore, aggregate total_laid_off by company.
+*/
+
+SELECT
+    company,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+GROUP BY company
+ORDER BY total_laid_off DESC;
+
+
+/*
+Top 10 companies
+*/
+
+SELECT TOP 10
+    company,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+GROUP BY company
+ORDER BY total_laid_off DESC;
+
+
+/*
+============================================================
+9. TOTAL LAYOFFS BY INDUSTRY
+============================================================
+*/
+
+SELECT
+    industry,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+GROUP BY industry
+ORDER BY total_laid_off DESC;
+
+
+/*
+============================================================
+10. NUMBER OF LAYOFF RECORDS BY INDUSTRY
+============================================================
+*/
+
+SELECT
+    industry,
+    COUNT(*) AS number_of_records,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+GROUP BY industry
+ORDER BY total_laid_off DESC;
+
+
+/*
+============================================================
+11. TOTAL LAYOFFS BY COUNTRY
+============================================================
+*/
+
+SELECT
+    country,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+GROUP BY country
+ORDER BY total_laid_off DESC;
+
+
+/*
+Top 10 countries
+*/
+
+SELECT TOP 10
+    country,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+GROUP BY country
+ORDER BY total_laid_off DESC;
+
+
+/*
+============================================================
+12. TOTAL LAYOFFS BY STAGE
+============================================================
+*/
+
+SELECT
+    stage,
+    COUNT(*) AS number_of_records,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+GROUP BY stage
+ORDER BY total_laid_off DESC;
+
+
+/*
+============================================================
+13. TOTAL LAYOFFS BY YEAR
+============================================================
+*/
+
+SELECT
+    YEAR([date]) AS layoff_year,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+GROUP BY YEAR([date])
+ORDER BY layoff_year;
+
+
+/*
+============================================================
+14. NUMBER OF LAYOFF RECORDS BY YEAR
+============================================================
+*/
+
+SELECT
+    YEAR([date]) AS layoff_year,
+    COUNT(*) AS number_of_layoff_records
+FROM dbo.layoffs_staging2
+GROUP BY YEAR([date])
+ORDER BY layoff_year;
+
+
+/*
+============================================================
+15. LAYOFFS BY YEAR AND INDUSTRY
+============================================================
+*/
+
+SELECT
+    YEAR([date]) AS layoff_year,
+    industry,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+GROUP BY
+    YEAR([date]),
+    industry
+ORDER BY
+    layoff_year,
+    total_laid_off DESC;
+
+
+/*
+============================================================
+16. MONTHLY LAYOFF TOTALS
+============================================================
+*/
+
+SELECT
+    YEAR([date]) AS layoff_year,
+    MONTH([date]) AS layoff_month,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+GROUP BY
+    YEAR([date]),
+    MONTH([date])
+ORDER BY
+    layoff_year,
+    layoff_month;
+
+
+/*
+============================================================
+17. MONTHLY LAYOFF TOTALS USING DATE FORMATTING
+============================================================
+*/
+
+SELECT
+    DATEFROMPARTS
+    (
+        YEAR([date]),
+        MONTH([date]),
+        1
+    ) AS month_start,
+
+    SUM(total_laid_off) AS total_laid_off
+
+FROM dbo.layoffs_staging2
+
+WHERE total_laid_off IS NOT NULL
+
+GROUP BY
+    DATEFROMPARTS
+    (
+        YEAR([date]),
+        MONTH([date]),
+        1
+    )
+
+ORDER BY month_start;
+
+
+/*
+============================================================
+18. ROLLING TOTAL OF LAYOFFS
+============================================================
+
+Calculate cumulative layoffs over time.
+*/
+
+WITH monthly_layoffs AS
+(
+    SELECT
+        DATEFROMPARTS
+        (
+            YEAR([date]),
+            MONTH([date]),
+            1
+        ) AS month_start,
+
+        SUM(total_laid_off) AS total_laid_off
+
+    FROM dbo.layoffs_staging2
+
+    WHERE total_laid_off IS NOT NULL
+
+    GROUP BY
+        DATEFROMPARTS
+        (
+            YEAR([date]),
+            MONTH([date]),
+            1
+        )
+)
+
+SELECT
+    month_start,
+    total_laid_off,
+
+    SUM(total_laid_off) OVER
+    (
+        ORDER BY month_start
+        ROWS BETWEEN UNBOUNDED PRECEDING
+        AND CURRENT ROW
+    ) AS rolling_total_laid_off
+
+FROM monthly_layoffs
+
+ORDER BY month_start;
+
+
+/*
+============================================================
+19. COMPANY TOTALS
+============================================================
+*/
+
+SELECT
+    company,
+    SUM(total_laid_off) AS total_laid_off
+FROM dbo.layoffs_staging2
+WHERE total_laid_off IS NOT NULL
+GROUP BY company
+ORDER BY total_laid_off DESC;
+
+
+/*
+============================================================
+20. COMPANY RANKINGS
+============================================================
+
+Rank companies based on their total layoffs.
+*/
+
+WITH company_totals AS
+(
+    SELECT
+        company,
+        SUM(total_laid_off) AS total_laid_off
+    FROM dbo.layoffs_staging2
+    WHERE total_laid_off IS NOT NULL
+    GROUP BY company
+)
+
+SELECT
+    company,
+    total_laid_off,
+
+    DENSE_RANK() OVER
+    (
+        ORDER BY total_laid_off DESC
+    ) AS company_rank
+
+FROM company_totals
+
+ORDER BY company_rank;
+
+
+/*
+============================================================
+21. TOP 5 COMPANIES OVERALL
+============================================================
+*/
+
+WITH company_totals AS
+(
+    SELECT
+        company,
+        SUM(total_laid_off) AS total_laid_off
+    FROM dbo.layoffs_staging2
+    WHERE total_laid_off IS NOT NULL
+    GROUP BY company
+),
+
+ranked_companies AS
+(
+    SELECT
+        company,
+        total_laid_off,
+
+        DENSE_RANK() OVER
+        (
+            ORDER BY total_laid_off DESC
+        ) AS company_rank
+
+    FROM company_totals
+)
+
+SELECT
+    company,
+    total_laid_off,
+    company_rank
+
+FROM ranked_companies
+
+WHERE company_rank <= 5
+
+ORDER BY company_rank;
+
+
+/*
+============================================================
+22. TOP 5 COMPANIES BY YEAR
+============================================================
+
+This uses a CTE and DENSE_RANK() to rank companies
+within each year.
+*/
+
+WITH yearly_company_totals AS
+(
+    SELECT
+        YEAR([date]) AS layoff_year,
+        company,
+        SUM(total_laid_off) AS total_laid_off
+
+    FROM dbo.layoffs_staging2
+
+    WHERE total_laid_off IS NOT NULL
+
+    GROUP BY
+        YEAR([date]),
+        company
+),
+
+yearly_rankings AS
+(
+    SELECT
+        layoff_year,
+        company,
+        total_laid_off,
+
+        DENSE_RANK() OVER
+        (
+            PARTITION BY layoff_year
+            ORDER BY total_laid_off DESC
+        ) AS company_rank
+
+    FROM yearly_company_totals
+)
+
+SELECT
+    layoff_year,
+    company,
+    total_laid_off,
+    company_rank
+
+FROM yearly_rankings
+
+WHERE company_rank <= 5
+
+ORDER BY
+    layoff_year,
+    company_rank;
+
+
+/*
+============================================================
+23. TOTAL LAYOFFS BY YEAR AND COUNTRY
+============================================================
+*/
+
+SELECT
+    YEAR([date]) AS layoff_year,
+    country,
+    SUM(total_laid_off) AS total_laid_off
+
+FROM dbo.layoffs_staging2
+
+WHERE total_laid_off IS NOT NULL
+
+GROUP BY
+    YEAR([date]),
+    country
+
+ORDER BY
+    layoff_year,
+    total_laid_off DESC;
+
+
+/*
+============================================================
+24. COMPANIES WITH THE HIGHEST PERCENTAGE OF LAYOFFS
+============================================================
+
+Only records with a known percentage are included.
+*/
+
+SELECT TOP 20
+    company,
+    industry,
+    country,
+    percentage_laid_off,
+    total_laid_off,
+    [date]
+FROM dbo.layoffs_staging2
+
+WHERE percentage_laid_off IS NOT NULL
+
+ORDER BY
+    percentage_laid_off DESC,
+    total_laid_off DESC;
+
+
+/*
+============================================================
+25. RECORDS WITH BOTH HIGH LAYOFF COUNT AND HIGH PERCENTAGE
+============================================================
+
+This identifies significant individual layoff events.
+*/
+
+SELECT
+    company,
+    industry,
+    country,
+    total_laid_off,
+    percentage_laid_off,
+    [date]
+FROM dbo.layoffs_staging2
+
+WHERE total_laid_off IS NOT NULL
+  AND percentage_laid_off IS NOT NULL
+
+ORDER BY
+    total_laid_off DESC,
+    percentage_laid_off DESC;
+
+
+/*
+============================================================
+26. FINAL SUMMARY
+============================================================
+*/
+
+SELECT
+    SUM(total_laid_off) AS total_people_laid_off,
+    MAX(total_laid_off) AS largest_single_layoff,
+    AVG(CAST(total_laid_off AS DECIMAL(18,2)))
+        AS average_layoff_per_record,
+
+    COUNT(DISTINCT company) AS companies_affected
+
+FROM dbo.layoffs_staging2
+
+WHERE total_laid_off IS NOT NULL;
+
+
+/*
+============================================================
+END OF EXPLORATORY DATA ANALYSIS PROJECT
+============================================================
+*/
