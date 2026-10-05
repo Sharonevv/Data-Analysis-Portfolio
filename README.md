@@ -28,11 +28,11 @@ My portfolio projects are organized below by technology and demonstrate the prog
 
 #### World Layoffs Data Cleaning
 
-This project demonstrates my ability to clean and prepare raw data using SQL Server by identifying and removing duplicate records, standardizing inconsistent values, handling missing data, correcting data types, and using CTEs, window functions, and joins to produce an analysis-ready dataset. (see [World Layoffs Data Cleaning](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details)
+This project demonstrates my ability to clean and prepare raw data using SQL Server by identifying and removing duplicate records, standardizing inconsistent values, handling missing data, correcting data types, and using CTEs, window functions, and joins to produce an analysis-ready dataset. (see [World Layoffs Data Cleaning](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/SQL%20Projects/WORLD%20LAYOFFS%20DATA%20CLEANING%20PROJECT) for details)
 
 #### World Layoffs Exploratory Data Analysis
 
-This project demonstrates my ability to perform exploratory data analysis using SQL Server by analyzing layoffs across companies, industries, countries, years, and funding stages. I used aggregations, CTEs, date-based analysis, rolling totals, window functions, and ranking to identify trends and patterns within the dataset.(see [World Layoffs Exploratory Data Analysis](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/week1/week1/week1_day1.sql) for details) 
+This project demonstrates my ability to perform exploratory data analysis using SQL Server by analyzing layoffs across companies, industries, countries, years, and funding stages. I used aggregations, CTEs, date-based analysis, rolling totals, window functions, and ranking to identify trends and patterns within the dataset.(see [World Layoffs Exploratory Data Analysis](https://github.com/Sharonevv/Data-Analysis-Portfolio/blob/main/SQL%20Projects/EXPLORATORY%20DATA%20ANALYSIS) for details) 
 
 
 ---
