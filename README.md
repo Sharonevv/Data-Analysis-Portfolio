@@ -10,6 +10,7 @@ In my free time, I explore new tools and techniques to strengthen my analytical 
 
 -My Email: Sharoneboois40@gmail.com
 -My Website: https://sharonevv.github.io/SharoneBoois.github.io/
+
 ---
 
 ## Technical Skills
