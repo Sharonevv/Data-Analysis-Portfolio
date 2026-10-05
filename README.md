@@ -8,8 +8,8 @@ My portfolio demonstrates practical work across data cleaning, exploratory analy
 
 In my free time, I explore new tools and techniques to strengthen my analytical skills and problem-solving abilities. I am motivated by the challenge of learning, improving, and applying data-driven thinking to real-world problems.
 
-**My Email**[Sharoneboois40@gmail.com]
-
+**My Email**Sharoneboois40@gmail.com
+**My Website**https://sharonevv.github.io/SharoneBoois.github.io/
 ---
 
 ## Technical Skills
