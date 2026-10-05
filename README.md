@@ -6,10 +6,11 @@ Hi, I’m Sharone, I am a Computer Science graduate focused on data analytics, w
 
 My portfolio demonstrates practical work across data cleaning, exploratory analysis, KPI development, reporting, dashboard creation, and data visualization. I focus on turning raw datasets into structured, analysis-ready information and presenting findings in a way that supports business decision-making.
 
-In my free time, I explore new tools and techniques to strengthen my analytical skills and problem-solving abilities. I am motivated by the challenge of learning, improving, and applying data-driven thinking to real-world problems.
+In my free time, I explore new tools and techniques to strengthen my analytical skills and problem-solving abilities. I am motivated by the challenge of learning, improving, and applying data-driven thinking to real-world problems.                                          
 
 -My Email: Sharoneboois40@gmail.com
 -My Website: https://sharonevv.github.io/SharoneBoois.github.io/
+
 
 ---
 
